@@ -158,29 +158,29 @@
     <header>
         <h1>Dashboard de Candidatos</h1>
         <div class="subtitle">AI Automation Builder — Culinaire France 2026</div>
-        <div class="date">Actualizado: 17/02/2026 10:42 · 70 candidatos · 70 evaluados · 14 CVs analizados</div>
+        <div class="date">Actualizado: 17/02/2026 11:09 · 95 candidatos · 95 evaluados · 14 CVs analizados</div>
     </header>
 
     <div class="stats-bar">
-        <div class="stat-card"><div class="number">70</div><div class="label">Total</div></div>
+        <div class="stat-card"><div class="number">95</div><div class="label">Total</div></div>
         <div class="stat-card green"><div class="number">1</div><div class="label">Tier A</div></div>
         <div class="stat-card yellow"><div class="number">5</div><div class="label">Tier B</div></div>
-        <div class="stat-card orange"><div class="number">13</div><div class="label">Tier C</div></div>
-        <div class="stat-card red"><div class="number">51</div><div class="label">Tier D</div></div>
+        <div class="stat-card orange"><div class="number">14</div><div class="label">Tier C</div></div>
+        <div class="stat-card red"><div class="number">75</div><div class="label">Tier D</div></div>
         <div class="stat-card"><div class="number">14</div><div class="label">CVs leidos</div></div>
-        <div class="stat-card"><div class="number">70</div><div class="label">Evaluados</div></div>
+        <div class="stat-card"><div class="number">95</div><div class="label">Evaluados</div></div>
     </div>
 
     <div class="filters">
         <label>Filtrar:</label>
-        <button class="filter-btn active" onclick="filterTier('all')">Todos (70)</button>
+        <button class="filter-btn active" onclick="filterTier('all')">Todos (95)</button>
         <button class="filter-btn" onclick="filterTier('A')">Tier A (1)</button>
         <button class="filter-btn" onclick="filterTier('B')">Tier B (5)</button>
-        <button class="filter-btn" onclick="filterTier('C')">Tier C (13)</button>
-        <button class="filter-btn" onclick="filterTier('D')">Tier D (51)</button>
+        <button class="filter-btn" onclick="filterTier('C')">Tier C (14)</button>
+        <button class="filter-btn" onclick="filterTier('D')">Tier D (75)</button>
         <span style="color:var(--border)">|</span>
         <button class="filter-btn active" onclick="filterSource('all')">Todas fuentes</button>
-        <button class="filter-btn" onclick="filterSource('Duoc')">Duoc (16)</button><button class="filter-btn" onclick="filterSource('INACAP')">INACAP (54)</button>
+        <button class="filter-btn" onclick="filterSource('Duoc')">Duoc (16)</button><button class="filter-btn" onclick="filterSource('INACAP')">INACAP (79)</button>
         <span style="color:var(--border)">|</span>
         <input type="text" class="search-box" placeholder="Buscar candidato..." oninput="searchFilter(this.value)">
     </div>
@@ -1207,12 +1207,83 @@
             <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">AVANZA: 7 años exp, Analista Programador + Desarrollo Aplicaciones - perfil constructor con experiencia</div></div>
         </div>
     </div>
+    <div class="candidate-card" data-tier="C" data-source="INACAP" data-score="33" data-name="alvaro felipe ignacio franco valencia">
+        <div class="card-header">
+            <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
+                <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">AF</div>
+                <div>
+                    <div class="card-name">#15 ALVARO FELIPE IGNACIO FRANCO VALENCIA</div>
+                    <div class="card-meta">
+                        <span class="source-badge">INACAP</span>
+                        <span class="sep">·</span>
+                        <span>Sin exp.</span>
+                        <span class="sep">·</span>
+                        <span>$850,000</span>
+                    </div>
+                    
+                    <div class="card-edu">Ingeniero en Informática,  INACAP (Estudiante),
+                                                                        ...</div>
+                    
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="score-badge tier-c">33<small>/100</small></div>
+                <div class="tier-label tier-c">TIER C — Revisar</div>
+            </div>
+        </div>
+        <div class="card-links-bar"><span class="link-chip link-answers">Tiene Respuestas</span> </div>
+        <div class="card-expand" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="expand-icon">▼</span> Ver detalle
+        </div>
+        <div class="card-body">
+            
+            <div class="card-section personality-section"><div class="section-title">Fit Cultural Culinaire France — <span style="color:var(--red);">Bajo (1/5)</span></div><div class="fit-signals"><div class="fit-signal negative">- Genérico: respuestas largas pero sin evidencia concreta</div></div></div>
+            <div class="card-section">
+                <div class="section-title">Desglose de puntaje</div>
+                <div class="scores-grid">
+            <div class="score-row">
+                <span class="score-label">A. Construccion</span>
+                <div class="score-track"><div class="score-fill" style="width:10%"></div></div>
+                <span class="score-val">3/30</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">B. IA/LLM/RAG</span>
+                <div class="score-track"><div class="score-fill" style="width:40%"></div></div>
+                <span class="score-val">10/25</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">C. Automatizacion</span>
+                <div class="score-track"><div class="score-fill" style="width:40%"></div></div>
+                <span class="score-val">8/20</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">D. DB + Codigo</span>
+                <div class="score-track"><div class="score-fill" style="width:60%"></div></div>
+                <span class="score-val">9/15</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">E. Potencial</span>
+                <div class="score-track"><div class="score-fill" style="width:30%"></div></div>
+                <span class="score-val">3/10</span>
+            </div></div>
+            </div>
+            
+            
+            
+            <div class="card-section"><div class="section-title">Ajustes de puntaje</div><div class="findings" style="color:var(--text-dim);">Auto-scored by monitor</div></div>
+            <div class="card-section"><div class="section-title">Evidencia verificada (investigacion)</div><div class="findings">Auto-investigado por monitor. GitHub: 0 repos, 0 lenguajes. Deploys vivos: 0. AI repos: 0.</div></div>
+            
+            <div class="card-section"><div class="section-title">Respuestas calificatorias</div><div class="qa-list"><div class="qa-item"><div class="qa-question">renta</div><div class="qa-answer">$850,000</div></div><div class="qa-item"><div class="qa-question">proyecto_complejo</div><div class="qa-answer">Cargando ...<br>                    <br>                <br>                <br>                    <br>                        <br>                            100% Complete<br>                        <br>                    <br>                <br>                <br>                <br>            <br>            <br>    <br>        <br>    <br>    <br><br>        <br>        <br>                    <br>            <br>    <br>    <br>        <br>                            ALVARO FELIPE IGNACIO FRANCO VALENCIA<br>                    <br>        <br>            <br>                </div></div></div></div>
+            <div class="card-section"><div class="section-title">Recomendacion</div><div class="recommendation">Revisar — Auto-score 33pts. Sin GitHub. Sin deploys verificados.</div></div>
+            <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">PENDIENTE: Auto-ingresado por monitor de portales</div></div>
+        </div>
+    </div>
     <div class="candidate-card" data-tier="C" data-source="INACAP" data-score="32" data-name="byron alexis cabezas manzor">
         <div class="card-header">
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <img class="avatar" src="../data/photos/Kovax00.jpg" alt="Byron Alexis Cabezas Manzor" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar avatar-initials" style="display:none;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">BA</div>
                 <div>
-                    <div class="card-name">#15 Byron Alexis Cabezas Manzor</div>
+                    <div class="card-name">#16 Byron Alexis Cabezas Manzor</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -1282,7 +1353,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <img class="avatar" src="../data/photos/txxxmvs.jpg" alt="Tomas Humberto Manuel Valenzuela Vergara" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar avatar-initials" style="display:none;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">TH</div>
                 <div>
-                    <div class="card-name">#16 Tomas Humberto Manuel Valenzuela Vergara</div>
+                    <div class="card-name">#17 Tomas Humberto Manuel Valenzuela Vergara</div>
                     <div class="card-meta">
                         <span class="source-badge">Duoc</span>
                         <span class="sep">·</span>
@@ -1352,7 +1423,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">MD</div>
                 <div>
-                    <div class="card-name">#17 Michel David Espinoza Duarte</div>
+                    <div class="card-name">#18 Michel David Espinoza Duarte</div>
                     <div class="card-meta">
                         <span class="source-badge">Duoc</span>
                         <span class="sep">·</span>
@@ -1427,7 +1498,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">JM</div>
                 <div>
-                    <div class="card-name">#18 Johanna María González Sarmiento</div>
+                    <div class="card-name">#19 Johanna María González Sarmiento</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -1497,7 +1568,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <img class="avatar" src="../data/photos/cabarcn.jpg" alt="Cristopher Jonathan Abarca Navarro" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar avatar-initials" style="display:none;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">CJ</div>
                 <div>
-                    <div class="card-name">#19 Cristopher Jonathan Abarca Navarro</div>
+                    <div class="card-name">#20 Cristopher Jonathan Abarca Navarro</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -1567,7 +1638,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">DI</div>
                 <div>
-                    <div class="card-name">#20 Diego Ignacio Castillo Huenchul</div>
+                    <div class="card-name">#21 Diego Ignacio Castillo Huenchul</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -1637,7 +1708,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">IL</div>
                 <div>
-                    <div class="card-name">#21 Ignacio Lorenzo Ruz Romero</div>
+                    <div class="card-name">#22 Ignacio Lorenzo Ruz Romero</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -1707,7 +1778,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">RI</div>
                 <div>
-                    <div class="card-name">#22 Ricardo Ignacio Haguer</div>
+                    <div class="card-name">#23 Ricardo Ignacio Haguer</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -1777,7 +1848,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">DA</div>
                 <div>
-                    <div class="card-name">#23 Diego Antonio Arias Céspedes</div>
+                    <div class="card-name">#24 Diego Antonio Arias Céspedes</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -1847,7 +1918,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">JI</div>
                 <div>
-                    <div class="card-name">#24 Jose Ignacio Moreno Rojas</div>
+                    <div class="card-name">#25 Jose Ignacio Moreno Rojas</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -1917,7 +1988,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">CF</div>
                 <div>
-                    <div class="card-name">#25 Carlos Felipe Valdivia Parra</div>
+                    <div class="card-name">#26 Carlos Felipe Valdivia Parra</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -1987,7 +2058,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <img class="avatar" src="../data/photos/ElTzuyu.jpg" alt="Cristian Jeldres Guerra" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar avatar-initials" style="display:none;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">CJ</div>
                 <div>
-                    <div class="card-name">#26 Cristian Jeldres Guerra</div>
+                    <div class="card-name">#27 Cristian Jeldres Guerra</div>
                     <div class="card-meta">
                         <span class="source-badge">Duoc</span>
                         <span class="sep">·</span>
@@ -2059,7 +2130,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">BA</div>
                 <div>
-                    <div class="card-name">#27 Byron Alejandro Leiva Garces</div>
+                    <div class="card-name">#28 Byron Alejandro Leiva Garces</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -2129,7 +2200,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">MB</div>
                 <div>
-                    <div class="card-name">#28 Moises Bensaid Cid Valenzuela</div>
+                    <div class="card-name">#29 Moises Bensaid Cid Valenzuela</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -2199,7 +2270,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">BR</div>
                 <div>
-                    <div class="card-name">#29 Bruno Robinson Morales</div>
+                    <div class="card-name">#30 Bruno Robinson Morales</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -2269,7 +2340,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <img class="avatar" src="../data/photos/Matias-CFT.jpg" alt="Matías Cifuentes Mella" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar avatar-initials" style="display:none;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">MC</div>
                 <div>
-                    <div class="card-name">#30 Matías Cifuentes Mella</div>
+                    <div class="card-name">#31 Matías Cifuentes Mella</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -2334,12 +2405,83 @@
             <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">AVANZA: 2 apps desplegadas en Vercel (portfolio + Metas app), React+Node.js, 6 meses bootcamp con IA/prompting - constructor activo con deploys reales</div></div>
         </div>
     </div>
+    <div class="candidate-card" data-tier="D" data-source="INACAP" data-score="21" data-name="andrea stefanie caceres vasquez">
+        <div class="card-header">
+            <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
+                <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">AS</div>
+                <div>
+                    <div class="card-name">#32 ANDREA STEFANIE CACERES VASQUEZ</div>
+                    <div class="card-meta">
+                        <span class="source-badge">INACAP</span>
+                        <span class="sep">·</span>
+                        <span>Sin exp.</span>
+                        <span class="sep">·</span>
+                        <span>$750,000</span>
+                    </div>
+                    
+                    <div class="card-edu">Ingeniero en Informática,  INACAP (Egresado),
+                                                                          ...</div>
+                    
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="score-badge tier-d">21<small>/100</small></div>
+                <div class="tier-label tier-d">TIER D — Descartar</div>
+            </div>
+        </div>
+        <div class="card-links-bar"><span class="link-chip link-answers">Tiene Respuestas</span> </div>
+        <div class="card-expand" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="expand-icon">▼</span> Ver detalle
+        </div>
+        <div class="card-body">
+            
+            <div class="card-section personality-section"><div class="section-title">Fit Cultural Culinaire France — <span style="color:var(--red);">Bajo (1/5)</span></div><div class="fit-signals"><div class="fit-signal negative">- Genérico: respuestas largas pero sin evidencia concreta</div></div></div>
+            <div class="card-section">
+                <div class="section-title">Desglose de puntaje</div>
+                <div class="scores-grid">
+            <div class="score-row">
+                <span class="score-label">A. Construccion</span>
+                <div class="score-track"><div class="score-fill" style="width:10%"></div></div>
+                <span class="score-val">3/30</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">B. IA/LLM/RAG</span>
+                <div class="score-track"><div class="score-fill" style="width:12%"></div></div>
+                <span class="score-val">3/25</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">C. Automatizacion</span>
+                <div class="score-track"><div class="score-fill" style="width:40%"></div></div>
+                <span class="score-val">8/20</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">D. DB + Codigo</span>
+                <div class="score-track"><div class="score-fill" style="width:27%"></div></div>
+                <span class="score-val">4/15</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">E. Potencial</span>
+                <div class="score-track"><div class="score-fill" style="width:30%"></div></div>
+                <span class="score-val">3/10</span>
+            </div></div>
+            </div>
+            
+            
+            
+            <div class="card-section"><div class="section-title">Ajustes de puntaje</div><div class="findings" style="color:var(--text-dim);">Auto-scored by monitor</div></div>
+            <div class="card-section"><div class="section-title">Evidencia verificada (investigacion)</div><div class="findings">Auto-investigado por monitor. GitHub: 0 repos, 0 lenguajes. Deploys vivos: 0. AI repos: 0.</div></div>
+            
+            <div class="card-section"><div class="section-title">Respuestas calificatorias</div><div class="qa-list"><div class="qa-item"><div class="qa-question">renta</div><div class="qa-answer">$750,000</div></div><div class="qa-item"><div class="qa-question">proyecto_complejo</div><div class="qa-answer">Cargando ...<br>                    <br>                <br>                <br>                    <br>                        <br>                            100% Complete<br>                        <br>                    <br>                <br>                <br>                <br>            <br>            <br>    <br>        <br>    <br>    <br><br>        <br>        <br>                    <br>            <br>    <br>    <br>        <br>                            ANDREA STEFANIE CACERES VASQUEZ<br>                    <br>        <br>            <br>                      </div></div></div></div>
+            <div class="card-section"><div class="section-title">Recomendacion</div><div class="recommendation">No recomendado — Auto-score 21pts. Scoring automático conservador, revisar si hay señales positivas.</div></div>
+            <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">PENDIENTE: Auto-ingresado por monitor de portales</div></div>
+        </div>
+    </div>
     <div class="candidate-card" data-tier="D" data-source="INACAP" data-score="20" data-name="diego benjamin vallejos leiva">
         <div class="card-header">
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">DB</div>
                 <div>
-                    <div class="card-name">#31 Diego Benjamin Vallejos Leiva</div>
+                    <div class="card-name">#33 Diego Benjamin Vallejos Leiva</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -2409,7 +2551,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">IJ</div>
                 <div>
-                    <div class="card-name">#32 Ismael Jacob Turra Jara</div>
+                    <div class="card-name">#34 Ismael Jacob Turra Jara</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -2479,7 +2621,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <img class="avatar" src="../data/photos/FelipeEspinozaCode.jpg" alt="Felipe Andrés Espinoza Fuentes" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar avatar-initials" style="display:none;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">FA</div>
                 <div>
-                    <div class="card-name">#33 Felipe Andrés Espinoza Fuentes</div>
+                    <div class="card-name">#35 Felipe Andrés Espinoza Fuentes</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -2549,7 +2691,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <img class="avatar" src="../data/photos/DanielLobos2894.jpg" alt="Daniel Lobos" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar avatar-initials" style="display:none;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">DL</div>
                 <div>
-                    <div class="card-name">#34 Daniel Lobos</div>
+                    <div class="card-name">#36 Daniel Lobos</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -2619,7 +2761,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">BA</div>
                 <div>
-                    <div class="card-name">#35 Bastián Andrés Pavez Cortés</div>
+                    <div class="card-name">#37 Bastián Andrés Pavez Cortés</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -2689,7 +2831,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">FA</div>
                 <div>
-                    <div class="card-name">#36 Fernando Andrés Bolvarán Carvajal</div>
+                    <div class="card-name">#38 Fernando Andrés Bolvarán Carvajal</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -2759,7 +2901,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">PL</div>
                 <div>
-                    <div class="card-name">#37 Patricio Lillo Catalán</div>
+                    <div class="card-name">#39 Patricio Lillo Catalán</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -2829,7 +2971,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">CS</div>
                 <div>
-                    <div class="card-name">#38 Catriel Sebastián Goldmann Goldmann</div>
+                    <div class="card-name">#40 Catriel Sebastián Goldmann Goldmann</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -2899,7 +3041,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <img class="avatar" src="../data/photos/Lokasos24.jpg" alt="Emanuel Jesus Arancibia Ferrada" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar avatar-initials" style="display:none;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">EJ</div>
                 <div>
-                    <div class="card-name">#39 Emanuel Jesus Arancibia Ferrada</div>
+                    <div class="card-name">#41 Emanuel Jesus Arancibia Ferrada</div>
                     <div class="card-meta">
                         <span class="source-badge">Duoc</span>
                         <span class="sep">·</span>
@@ -2969,7 +3111,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">JÁ</div>
                 <div>
-                    <div class="card-name">#40 Jairo Álvarez Salazar</div>
+                    <div class="card-name">#42 Jairo Álvarez Salazar</div>
                     <div class="card-meta">
                         <span class="source-badge">Duoc</span>
                         <span class="sep">·</span>
@@ -3039,7 +3181,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">MH</div>
                 <div>
-                    <div class="card-name">#41 Maximiliano Hernan Pizarro Lagos</div>
+                    <div class="card-name">#43 Maximiliano Hernan Pizarro Lagos</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -3109,7 +3251,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <img class="avatar" src="../data/photos/RorroS.jpg" alt="Rodrigo Antonio Freire Galindo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar avatar-initials" style="display:none;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">RA</div>
                 <div>
-                    <div class="card-name">#42 Rodrigo Antonio Freire Galindo</div>
+                    <div class="card-name">#44 Rodrigo Antonio Freire Galindo</div>
                     <div class="card-meta">
                         <span class="source-badge">Duoc</span>
                         <span class="sep">·</span>
@@ -3179,7 +3321,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">JJ</div>
                 <div>
-                    <div class="card-name">#43 Jimmy Jason Sura Robles</div>
+                    <div class="card-name">#45 Jimmy Jason Sura Robles</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -3249,7 +3391,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <img class="avatar" src="../data/photos/JordyCM.jpg" alt="Jordy Cabezas Mejias" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar avatar-initials" style="display:none;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">JC</div>
                 <div>
-                    <div class="card-name">#44 Jordy Cabezas Mejias</div>
+                    <div class="card-name">#46 Jordy Cabezas Mejias</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -3319,7 +3461,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <img class="avatar" src="../data/photos/kevinloayza.jpg" alt="Kevin Bastián Loayza Balboa" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar avatar-initials" style="display:none;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">KB</div>
                 <div>
-                    <div class="card-name">#45 Kevin Bastián Loayza Balboa</div>
+                    <div class="card-name">#47 Kevin Bastián Loayza Balboa</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -3389,7 +3531,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">BB</div>
                 <div>
-                    <div class="card-name">#46 Bastián Benjamín Meza Barros</div>
+                    <div class="card-name">#48 Bastián Benjamín Meza Barros</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -3459,7 +3601,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">JM</div>
                 <div>
-                    <div class="card-name">#47 Jose Miguel Sandoval Garces</div>
+                    <div class="card-name">#49 Jose Miguel Sandoval Garces</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -3529,7 +3671,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">GA</div>
                 <div>
-                    <div class="card-name">#48 Gabriel Alejandro Matamala Aedo</div>
+                    <div class="card-name">#50 Gabriel Alejandro Matamala Aedo</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -3599,7 +3741,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">NR</div>
                 <div>
-                    <div class="card-name">#49 Nicolás Renato Martínez Aguayo</div>
+                    <div class="card-name">#51 Nicolás Renato Martínez Aguayo</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -3669,7 +3811,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <img class="avatar" src="../data/photos/allanation.jpg" alt="Allan Roberto López González" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar avatar-initials" style="display:none;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">AR</div>
                 <div>
-                    <div class="card-name">#50 Allan Roberto López González</div>
+                    <div class="card-name">#52 Allan Roberto López González</div>
                     <div class="card-meta">
                         <span class="source-badge">Duoc</span>
                         <span class="sep">·</span>
@@ -3740,7 +3882,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <img class="avatar" src="../data/photos/Elgortax.jpg" alt="Alexis Jesus Rodriguez Riquelme" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar avatar-initials" style="display:none;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">AJ</div>
                 <div>
-                    <div class="card-name">#51 Alexis Jesus Rodriguez Riquelme</div>
+                    <div class="card-name">#53 Alexis Jesus Rodriguez Riquelme</div>
                     <div class="card-meta">
                         <span class="source-badge">Duoc</span>
                         <span class="sep">·</span>
@@ -3811,7 +3953,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">NM</div>
                 <div>
-                    <div class="card-name">#52 Nicolas Moraga Ortiz</div>
+                    <div class="card-name">#54 Nicolas Moraga Ortiz</div>
                     <div class="card-meta">
                         <span class="source-badge">Duoc</span>
                         <span class="sep">·</span>
@@ -3881,7 +4023,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">FB</div>
                 <div>
-                    <div class="card-name">#53 Franco Bastian Vasquez Toledo</div>
+                    <div class="card-name">#55 Franco Bastian Vasquez Toledo</div>
                     <div class="card-meta">
                         <span class="source-badge">Duoc</span>
                         <span class="sep">·</span>
@@ -3954,7 +4096,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">DS</div>
                 <div>
-                    <div class="card-name">#54 Daniel Scott Aguilar Aguirre</div>
+                    <div class="card-name">#56 Daniel Scott Aguilar Aguirre</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -4024,7 +4166,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">ND</div>
                 <div>
-                    <div class="card-name">#55 Nicolás David Velásquez Pino</div>
+                    <div class="card-name">#57 Nicolás David Velásquez Pino</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -4094,7 +4236,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">AI</div>
                 <div>
-                    <div class="card-name">#56 Antonio Ignacio Leiva Quiroz</div>
+                    <div class="card-name">#58 Antonio Ignacio Leiva Quiroz</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -4164,7 +4306,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">BI</div>
                 <div>
-                    <div class="card-name">#57 Benito Ignacio Díaz Lorca</div>
+                    <div class="card-name">#59 Benito Ignacio Díaz Lorca</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -4234,7 +4376,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">RJ</div>
                 <div>
-                    <div class="card-name">#58 Rodrigo Javier Monti González</div>
+                    <div class="card-name">#60 Rodrigo Javier Monti González</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -4304,7 +4446,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">KM</div>
                 <div>
-                    <div class="card-name">#59 Karla Marlene Cortés Cortés</div>
+                    <div class="card-name">#61 Karla Marlene Cortés Cortés</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -4374,7 +4516,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">AS</div>
                 <div>
-                    <div class="card-name">#60 Alexis Sebastian Eduardo González Vásquez</div>
+                    <div class="card-name">#62 Alexis Sebastian Eduardo González Vásquez</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -4444,7 +4586,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">NI</div>
                 <div>
-                    <div class="card-name">#61 Nicolás Ignacio Calisto Triviño</div>
+                    <div class="card-name">#63 Nicolás Ignacio Calisto Triviño</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -4509,12 +4651,1645 @@
             <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">DESCARTADO: Sin datos extras. Sin CV, sin respuestas, sin perfil digital.</div></div>
         </div>
     </div>
+    <div class="candidate-card" data-tier="D" data-source="INACAP" data-score="5" data-name="javiera belen kammle cabrera">
+        <div class="card-header">
+            <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
+                <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">JB</div>
+                <div>
+                    <div class="card-name">#64 JAVIERA BELEN KAMMLE CABRERA</div>
+                    <div class="card-meta">
+                        <span class="source-badge">INACAP</span>
+                        <span class="sep">·</span>
+                        <span>Sin exp.</span>
+                        <span class="sep">·</span>
+                        <span>$1,200,000</span>
+                    </div>
+                    
+                    <div class="card-edu">Ingeniero en Informática,  INACAP (Estudiante),
+                                                                        ...</div>
+                    
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="score-badge tier-d">5<small>/100</small></div>
+                <div class="tier-label tier-d">TIER D — Descartar</div>
+            </div>
+        </div>
+        <div class="card-links-bar"><span class="link-chip link-answers">Tiene Respuestas</span> </div>
+        <div class="card-expand" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="expand-icon">▼</span> Ver detalle
+        </div>
+        <div class="card-body">
+            
+            
+            <div class="card-section">
+                <div class="section-title">Desglose de puntaje</div>
+                <div class="scores-grid">
+            <div class="score-row">
+                <span class="score-label">A. Construccion</span>
+                <div class="score-track"><div class="score-fill" style="width:10%"></div></div>
+                <span class="score-val">3/30</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">B. IA/LLM/RAG</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/25</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">C. Automatizacion</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/20</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">D. DB + Codigo</span>
+                <div class="score-track"><div class="score-fill" style="width:13%"></div></div>
+                <span class="score-val">2/15</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">E. Potencial</span>
+                <div class="score-track"><div class="score-fill" style="width:30%"></div></div>
+                <span class="score-val">3/10</span>
+            </div><div class="score-row adj"><span class="score-label">Ajustes</span><span class="score-val">-3</span></div></div>
+            </div>
+            
+            
+            
+            <div class="card-section"><div class="section-title">Ajustes de puntaje</div><div class="findings" style="color:var(--text-dim);">-3 sin respuestas calificatorias</div></div>
+            <div class="card-section"><div class="section-title">Evidencia verificada (investigacion)</div><div class="findings">Auto-investigado por monitor. GitHub: 0 repos, 0 lenguajes. Deploys vivos: 0. AI repos: 0.</div></div>
+            
+            <div class="card-section"><div class="section-title">Respuestas calificatorias</div><div class="qa-list"></div></div>
+            <div class="card-section"><div class="section-title">Recomendacion</div><div class="recommendation">No recomendado — Auto-score 5pts. Scoring automático conservador, revisar si hay señales positivas.</div></div>
+            <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">PENDIENTE: Auto-ingresado por monitor de portales</div></div>
+        </div>
+    </div>
+    <div class="candidate-card" data-tier="D" data-source="INACAP" data-score="5" data-name="santiago alexander ramirez mejias">
+        <div class="card-header">
+            <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
+                <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">SA</div>
+                <div>
+                    <div class="card-name">#65 SANTIAGO ALEXANDER RAMIREZ MEJIAS</div>
+                    <div class="card-meta">
+                        <span class="source-badge">INACAP</span>
+                        <span class="sep">·</span>
+                        <span>Sin exp.</span>
+                        <span class="sep">·</span>
+                        <span>$1,000,000</span>
+                    </div>
+                    
+                    <div class="card-edu">Ingeniero en Informática,  INACAP (Egresado),
+                                                                          ...</div>
+                    
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="score-badge tier-d">5<small>/100</small></div>
+                <div class="tier-label tier-d">TIER D — Descartar</div>
+            </div>
+        </div>
+        <div class="card-links-bar"><span class="link-chip link-answers">Tiene Respuestas</span> </div>
+        <div class="card-expand" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="expand-icon">▼</span> Ver detalle
+        </div>
+        <div class="card-body">
+            
+            
+            <div class="card-section">
+                <div class="section-title">Desglose de puntaje</div>
+                <div class="scores-grid">
+            <div class="score-row">
+                <span class="score-label">A. Construccion</span>
+                <div class="score-track"><div class="score-fill" style="width:10%"></div></div>
+                <span class="score-val">3/30</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">B. IA/LLM/RAG</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/25</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">C. Automatizacion</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/20</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">D. DB + Codigo</span>
+                <div class="score-track"><div class="score-fill" style="width:13%"></div></div>
+                <span class="score-val">2/15</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">E. Potencial</span>
+                <div class="score-track"><div class="score-fill" style="width:30%"></div></div>
+                <span class="score-val">3/10</span>
+            </div><div class="score-row adj"><span class="score-label">Ajustes</span><span class="score-val">-3</span></div></div>
+            </div>
+            
+            
+            
+            <div class="card-section"><div class="section-title">Ajustes de puntaje</div><div class="findings" style="color:var(--text-dim);">-3 sin respuestas calificatorias</div></div>
+            <div class="card-section"><div class="section-title">Evidencia verificada (investigacion)</div><div class="findings">Auto-investigado por monitor. GitHub: 0 repos, 0 lenguajes. Deploys vivos: 0. AI repos: 0.</div></div>
+            
+            <div class="card-section"><div class="section-title">Respuestas calificatorias</div><div class="qa-list"></div></div>
+            <div class="card-section"><div class="section-title">Recomendacion</div><div class="recommendation">No recomendado — Auto-score 5pts. Scoring automático conservador, revisar si hay señales positivas.</div></div>
+            <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">PENDIENTE: Auto-ingresado por monitor de portales</div></div>
+        </div>
+    </div>
+    <div class="candidate-card" data-tier="D" data-source="INACAP" data-score="5" data-name="jose tomas barraza roman">
+        <div class="card-header">
+            <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
+                <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">JT</div>
+                <div>
+                    <div class="card-name">#66 JOSE TOMAS BARRAZA ROMAN</div>
+                    <div class="card-meta">
+                        <span class="source-badge">INACAP</span>
+                        <span class="sep">·</span>
+                        <span>Sin exp.</span>
+                        <span class="sep">·</span>
+                        <span>$1,200,000</span>
+                    </div>
+                    
+                    <div class="card-edu">Ingeniero en Informática,  INACAP (Titulado),
+                                                                          ...</div>
+                    
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="score-badge tier-d">5<small>/100</small></div>
+                <div class="tier-label tier-d">TIER D — Descartar</div>
+            </div>
+        </div>
+        <div class="card-links-bar"><span class="link-chip link-answers">Tiene Respuestas</span> </div>
+        <div class="card-expand" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="expand-icon">▼</span> Ver detalle
+        </div>
+        <div class="card-body">
+            
+            
+            <div class="card-section">
+                <div class="section-title">Desglose de puntaje</div>
+                <div class="scores-grid">
+            <div class="score-row">
+                <span class="score-label">A. Construccion</span>
+                <div class="score-track"><div class="score-fill" style="width:10%"></div></div>
+                <span class="score-val">3/30</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">B. IA/LLM/RAG</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/25</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">C. Automatizacion</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/20</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">D. DB + Codigo</span>
+                <div class="score-track"><div class="score-fill" style="width:13%"></div></div>
+                <span class="score-val">2/15</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">E. Potencial</span>
+                <div class="score-track"><div class="score-fill" style="width:30%"></div></div>
+                <span class="score-val">3/10</span>
+            </div><div class="score-row adj"><span class="score-label">Ajustes</span><span class="score-val">-3</span></div></div>
+            </div>
+            
+            
+            
+            <div class="card-section"><div class="section-title">Ajustes de puntaje</div><div class="findings" style="color:var(--text-dim);">-3 sin respuestas calificatorias</div></div>
+            <div class="card-section"><div class="section-title">Evidencia verificada (investigacion)</div><div class="findings">Auto-investigado por monitor. GitHub: 0 repos, 0 lenguajes. Deploys vivos: 0. AI repos: 0.</div></div>
+            
+            <div class="card-section"><div class="section-title">Respuestas calificatorias</div><div class="qa-list"></div></div>
+            <div class="card-section"><div class="section-title">Recomendacion</div><div class="recommendation">No recomendado — Auto-score 5pts. Scoring automático conservador, revisar si hay señales positivas.</div></div>
+            <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">PENDIENTE: Auto-ingresado por monitor de portales</div></div>
+        </div>
+    </div>
+    <div class="candidate-card" data-tier="D" data-source="INACAP" data-score="5" data-name="sebastian felipe pino rojas">
+        <div class="card-header">
+            <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
+                <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">SF</div>
+                <div>
+                    <div class="card-name">#67 SEBASTIAN FELIPE PINO ROJAS</div>
+                    <div class="card-meta">
+                        <span class="source-badge">INACAP</span>
+                        <span class="sep">·</span>
+                        <span>Sin exp.</span>
+                        <span class="sep">·</span>
+                        <span>$800,000</span>
+                    </div>
+                    
+                    <div class="card-edu">Ingeniero en Informática,  INACAP (Titulado),
+                                                                          ...</div>
+                    
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="score-badge tier-d">5<small>/100</small></div>
+                <div class="tier-label tier-d">TIER D — Descartar</div>
+            </div>
+        </div>
+        <div class="card-links-bar"><span class="link-chip link-answers">Tiene Respuestas</span> </div>
+        <div class="card-expand" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="expand-icon">▼</span> Ver detalle
+        </div>
+        <div class="card-body">
+            
+            
+            <div class="card-section">
+                <div class="section-title">Desglose de puntaje</div>
+                <div class="scores-grid">
+            <div class="score-row">
+                <span class="score-label">A. Construccion</span>
+                <div class="score-track"><div class="score-fill" style="width:10%"></div></div>
+                <span class="score-val">3/30</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">B. IA/LLM/RAG</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/25</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">C. Automatizacion</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/20</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">D. DB + Codigo</span>
+                <div class="score-track"><div class="score-fill" style="width:13%"></div></div>
+                <span class="score-val">2/15</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">E. Potencial</span>
+                <div class="score-track"><div class="score-fill" style="width:30%"></div></div>
+                <span class="score-val">3/10</span>
+            </div><div class="score-row adj"><span class="score-label">Ajustes</span><span class="score-val">-3</span></div></div>
+            </div>
+            
+            
+            
+            <div class="card-section"><div class="section-title">Ajustes de puntaje</div><div class="findings" style="color:var(--text-dim);">-3 sin respuestas calificatorias</div></div>
+            <div class="card-section"><div class="section-title">Evidencia verificada (investigacion)</div><div class="findings">Auto-investigado por monitor. GitHub: 0 repos, 0 lenguajes. Deploys vivos: 0. AI repos: 0.</div></div>
+            
+            <div class="card-section"><div class="section-title">Respuestas calificatorias</div><div class="qa-list"></div></div>
+            <div class="card-section"><div class="section-title">Recomendacion</div><div class="recommendation">No recomendado — Auto-score 5pts. Scoring automático conservador, revisar si hay señales positivas.</div></div>
+            <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">PENDIENTE: Auto-ingresado por monitor de portales</div></div>
+        </div>
+    </div>
+    <div class="candidate-card" data-tier="D" data-source="INACAP" data-score="5" data-name="cristian jesus fritz sepulveda">
+        <div class="card-header">
+            <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
+                <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">CJ</div>
+                <div>
+                    <div class="card-name">#68 CRISTIAN JESUS FRITZ SEPULVEDA</div>
+                    <div class="card-meta">
+                        <span class="source-badge">INACAP</span>
+                        <span class="sep">·</span>
+                        <span>Sin exp.</span>
+                        <span class="sep">·</span>
+                        <span>$800,000</span>
+                    </div>
+                    
+                    <div class="card-edu">Técnico de Nivel Superior Analista Programador,  INACAP (Titulado),
+                                                    ...</div>
+                    
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="score-badge tier-d">5<small>/100</small></div>
+                <div class="tier-label tier-d">TIER D — Descartar</div>
+            </div>
+        </div>
+        <div class="card-links-bar"><span class="link-chip link-answers">Tiene Respuestas</span> </div>
+        <div class="card-expand" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="expand-icon">▼</span> Ver detalle
+        </div>
+        <div class="card-body">
+            
+            
+            <div class="card-section">
+                <div class="section-title">Desglose de puntaje</div>
+                <div class="scores-grid">
+            <div class="score-row">
+                <span class="score-label">A. Construccion</span>
+                <div class="score-track"><div class="score-fill" style="width:10%"></div></div>
+                <span class="score-val">3/30</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">B. IA/LLM/RAG</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/25</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">C. Automatizacion</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/20</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">D. DB + Codigo</span>
+                <div class="score-track"><div class="score-fill" style="width:13%"></div></div>
+                <span class="score-val">2/15</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">E. Potencial</span>
+                <div class="score-track"><div class="score-fill" style="width:30%"></div></div>
+                <span class="score-val">3/10</span>
+            </div><div class="score-row adj"><span class="score-label">Ajustes</span><span class="score-val">-3</span></div></div>
+            </div>
+            
+            
+            
+            <div class="card-section"><div class="section-title">Ajustes de puntaje</div><div class="findings" style="color:var(--text-dim);">-3 sin respuestas calificatorias</div></div>
+            <div class="card-section"><div class="section-title">Evidencia verificada (investigacion)</div><div class="findings">Auto-investigado por monitor. GitHub: 0 repos, 0 lenguajes. Deploys vivos: 0. AI repos: 0.</div></div>
+            
+            <div class="card-section"><div class="section-title">Respuestas calificatorias</div><div class="qa-list"></div></div>
+            <div class="card-section"><div class="section-title">Recomendacion</div><div class="recommendation">No recomendado — Auto-score 5pts. Scoring automático conservador, revisar si hay señales positivas.</div></div>
+            <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">PENDIENTE: Auto-ingresado por monitor de portales</div></div>
+        </div>
+    </div>
+    <div class="candidate-card" data-tier="D" data-source="INACAP" data-score="5" data-name="camilo andrés orellana solé">
+        <div class="card-header">
+            <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
+                <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">CA</div>
+                <div>
+                    <div class="card-name">#69 Camilo Andrés Orellana Solé</div>
+                    <div class="card-meta">
+                        <span class="source-badge">INACAP</span>
+                        <span class="sep">·</span>
+                        <span>Sin exp.</span>
+                        <span class="sep">·</span>
+                        <span>$850,000</span>
+                    </div>
+                    
+                    <div class="card-edu">Técnico de Nivel Superior Analista Programador,  INACAP (Titulado),
+                                                    ...</div>
+                    
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="score-badge tier-d">5<small>/100</small></div>
+                <div class="tier-label tier-d">TIER D — Descartar</div>
+            </div>
+        </div>
+        <div class="card-links-bar"><span class="link-chip link-answers">Tiene Respuestas</span> </div>
+        <div class="card-expand" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="expand-icon">▼</span> Ver detalle
+        </div>
+        <div class="card-body">
+            
+            
+            <div class="card-section">
+                <div class="section-title">Desglose de puntaje</div>
+                <div class="scores-grid">
+            <div class="score-row">
+                <span class="score-label">A. Construccion</span>
+                <div class="score-track"><div class="score-fill" style="width:10%"></div></div>
+                <span class="score-val">3/30</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">B. IA/LLM/RAG</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/25</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">C. Automatizacion</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/20</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">D. DB + Codigo</span>
+                <div class="score-track"><div class="score-fill" style="width:13%"></div></div>
+                <span class="score-val">2/15</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">E. Potencial</span>
+                <div class="score-track"><div class="score-fill" style="width:30%"></div></div>
+                <span class="score-val">3/10</span>
+            </div><div class="score-row adj"><span class="score-label">Ajustes</span><span class="score-val">-3</span></div></div>
+            </div>
+            
+            
+            
+            <div class="card-section"><div class="section-title">Ajustes de puntaje</div><div class="findings" style="color:var(--text-dim);">-3 sin respuestas calificatorias</div></div>
+            <div class="card-section"><div class="section-title">Evidencia verificada (investigacion)</div><div class="findings">Auto-investigado por monitor. GitHub: 0 repos, 0 lenguajes. Deploys vivos: 0. AI repos: 0.</div></div>
+            
+            <div class="card-section"><div class="section-title">Respuestas calificatorias</div><div class="qa-list"></div></div>
+            <div class="card-section"><div class="section-title">Recomendacion</div><div class="recommendation">No recomendado — Auto-score 5pts. Scoring automático conservador, revisar si hay señales positivas.</div></div>
+            <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">PENDIENTE: Auto-ingresado por monitor de portales</div></div>
+        </div>
+    </div>
+    <div class="candidate-card" data-tier="D" data-source="INACAP" data-score="5" data-name="nicolas eduardo espinoza garrido">
+        <div class="card-header">
+            <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
+                <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">NE</div>
+                <div>
+                    <div class="card-name">#70 NICOLAS EDUARDO ESPINOZA GARRIDO</div>
+                    <div class="card-meta">
+                        <span class="source-badge">INACAP</span>
+                        <span class="sep">·</span>
+                        <span>Sin exp.</span>
+                        <span class="sep">·</span>
+                        <span>$850,000</span>
+                    </div>
+                    
+                    <div class="card-edu">Técnico de Nivel Superior Analista Programador,  INACAP (Titulado),
+                                                    ...</div>
+                    
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="score-badge tier-d">5<small>/100</small></div>
+                <div class="tier-label tier-d">TIER D — Descartar</div>
+            </div>
+        </div>
+        <div class="card-links-bar"><span class="link-chip link-answers">Tiene Respuestas</span> </div>
+        <div class="card-expand" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="expand-icon">▼</span> Ver detalle
+        </div>
+        <div class="card-body">
+            
+            
+            <div class="card-section">
+                <div class="section-title">Desglose de puntaje</div>
+                <div class="scores-grid">
+            <div class="score-row">
+                <span class="score-label">A. Construccion</span>
+                <div class="score-track"><div class="score-fill" style="width:10%"></div></div>
+                <span class="score-val">3/30</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">B. IA/LLM/RAG</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/25</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">C. Automatizacion</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/20</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">D. DB + Codigo</span>
+                <div class="score-track"><div class="score-fill" style="width:13%"></div></div>
+                <span class="score-val">2/15</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">E. Potencial</span>
+                <div class="score-track"><div class="score-fill" style="width:30%"></div></div>
+                <span class="score-val">3/10</span>
+            </div><div class="score-row adj"><span class="score-label">Ajustes</span><span class="score-val">-3</span></div></div>
+            </div>
+            
+            
+            
+            <div class="card-section"><div class="section-title">Ajustes de puntaje</div><div class="findings" style="color:var(--text-dim);">-3 sin respuestas calificatorias</div></div>
+            <div class="card-section"><div class="section-title">Evidencia verificada (investigacion)</div><div class="findings">Auto-investigado por monitor. GitHub: 0 repos, 0 lenguajes. Deploys vivos: 0. AI repos: 0.</div></div>
+            
+            <div class="card-section"><div class="section-title">Respuestas calificatorias</div><div class="qa-list"></div></div>
+            <div class="card-section"><div class="section-title">Recomendacion</div><div class="recommendation">No recomendado — Auto-score 5pts. Scoring automático conservador, revisar si hay señales positivas.</div></div>
+            <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">PENDIENTE: Auto-ingresado por monitor de portales</div></div>
+        </div>
+    </div>
+    <div class="candidate-card" data-tier="D" data-source="INACAP" data-score="5" data-name="graciany sebastian baeza jara">
+        <div class="card-header">
+            <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
+                <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">GS</div>
+                <div>
+                    <div class="card-name">#71 GRACIANY SEBASTIAN BAEZA JARA</div>
+                    <div class="card-meta">
+                        <span class="source-badge">INACAP</span>
+                        <span class="sep">·</span>
+                        <span>Sin exp.</span>
+                        <span class="sep">·</span>
+                        <span>$750,000</span>
+                    </div>
+                    
+                    <div class="card-edu">Ingeniero en Informática,  INACAP (Titulado),
+                                                                          ...</div>
+                    
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="score-badge tier-d">5<small>/100</small></div>
+                <div class="tier-label tier-d">TIER D — Descartar</div>
+            </div>
+        </div>
+        <div class="card-links-bar"><span class="link-chip link-answers">Tiene Respuestas</span> </div>
+        <div class="card-expand" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="expand-icon">▼</span> Ver detalle
+        </div>
+        <div class="card-body">
+            
+            
+            <div class="card-section">
+                <div class="section-title">Desglose de puntaje</div>
+                <div class="scores-grid">
+            <div class="score-row">
+                <span class="score-label">A. Construccion</span>
+                <div class="score-track"><div class="score-fill" style="width:10%"></div></div>
+                <span class="score-val">3/30</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">B. IA/LLM/RAG</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/25</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">C. Automatizacion</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/20</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">D. DB + Codigo</span>
+                <div class="score-track"><div class="score-fill" style="width:13%"></div></div>
+                <span class="score-val">2/15</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">E. Potencial</span>
+                <div class="score-track"><div class="score-fill" style="width:30%"></div></div>
+                <span class="score-val">3/10</span>
+            </div><div class="score-row adj"><span class="score-label">Ajustes</span><span class="score-val">-3</span></div></div>
+            </div>
+            
+            
+            
+            <div class="card-section"><div class="section-title">Ajustes de puntaje</div><div class="findings" style="color:var(--text-dim);">-3 sin respuestas calificatorias</div></div>
+            <div class="card-section"><div class="section-title">Evidencia verificada (investigacion)</div><div class="findings">Auto-investigado por monitor. GitHub: 0 repos, 0 lenguajes. Deploys vivos: 0. AI repos: 0.</div></div>
+            
+            <div class="card-section"><div class="section-title">Respuestas calificatorias</div><div class="qa-list"></div></div>
+            <div class="card-section"><div class="section-title">Recomendacion</div><div class="recommendation">No recomendado — Auto-score 5pts. Scoring automático conservador, revisar si hay señales positivas.</div></div>
+            <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">PENDIENTE: Auto-ingresado por monitor de portales</div></div>
+        </div>
+    </div>
+    <div class="candidate-card" data-tier="D" data-source="INACAP" data-score="5" data-name="abel alejandro aguilef toledo">
+        <div class="card-header">
+            <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
+                <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">AA</div>
+                <div>
+                    <div class="card-name">#72 ABEL ALEJANDRO AGUILEF TOLEDO</div>
+                    <div class="card-meta">
+                        <span class="source-badge">INACAP</span>
+                        <span class="sep">·</span>
+                        <span>Sin exp.</span>
+                        <span class="sep">·</span>
+                        <span>$900,000</span>
+                    </div>
+                    
+                    <div class="card-edu">Técnico de Nivel Superior Analista Programador,  INACAP (Estudiante),
+                                                  ...</div>
+                    
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="score-badge tier-d">5<small>/100</small></div>
+                <div class="tier-label tier-d">TIER D — Descartar</div>
+            </div>
+        </div>
+        <div class="card-links-bar"><span class="link-chip link-answers">Tiene Respuestas</span> </div>
+        <div class="card-expand" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="expand-icon">▼</span> Ver detalle
+        </div>
+        <div class="card-body">
+            
+            
+            <div class="card-section">
+                <div class="section-title">Desglose de puntaje</div>
+                <div class="scores-grid">
+            <div class="score-row">
+                <span class="score-label">A. Construccion</span>
+                <div class="score-track"><div class="score-fill" style="width:10%"></div></div>
+                <span class="score-val">3/30</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">B. IA/LLM/RAG</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/25</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">C. Automatizacion</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/20</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">D. DB + Codigo</span>
+                <div class="score-track"><div class="score-fill" style="width:13%"></div></div>
+                <span class="score-val">2/15</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">E. Potencial</span>
+                <div class="score-track"><div class="score-fill" style="width:30%"></div></div>
+                <span class="score-val">3/10</span>
+            </div><div class="score-row adj"><span class="score-label">Ajustes</span><span class="score-val">-3</span></div></div>
+            </div>
+            
+            
+            
+            <div class="card-section"><div class="section-title">Ajustes de puntaje</div><div class="findings" style="color:var(--text-dim);">-3 sin respuestas calificatorias</div></div>
+            <div class="card-section"><div class="section-title">Evidencia verificada (investigacion)</div><div class="findings">Auto-investigado por monitor. GitHub: 0 repos, 0 lenguajes. Deploys vivos: 0. AI repos: 0.</div></div>
+            
+            <div class="card-section"><div class="section-title">Respuestas calificatorias</div><div class="qa-list"></div></div>
+            <div class="card-section"><div class="section-title">Recomendacion</div><div class="recommendation">No recomendado — Auto-score 5pts. Scoring automático conservador, revisar si hay señales positivas.</div></div>
+            <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">PENDIENTE: Auto-ingresado por monitor de portales</div></div>
+        </div>
+    </div>
+    <div class="candidate-card" data-tier="D" data-source="INACAP" data-score="5" data-name="daniel mitchel caceres hermosilla">
+        <div class="card-header">
+            <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
+                <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">DM</div>
+                <div>
+                    <div class="card-name">#73 DANIEL MITCHEL CACERES HERMOSILLA</div>
+                    <div class="card-meta">
+                        <span class="source-badge">INACAP</span>
+                        <span class="sep">·</span>
+                        <span>Sin exp.</span>
+                        <span class="sep">·</span>
+                        <span>$800,000</span>
+                    </div>
+                    
+                    <div class="card-edu">Ingeniero en Informática,  INACAP (Titulado),
+                                                                          ...</div>
+                    
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="score-badge tier-d">5<small>/100</small></div>
+                <div class="tier-label tier-d">TIER D — Descartar</div>
+            </div>
+        </div>
+        <div class="card-links-bar"><span class="link-chip link-answers">Tiene Respuestas</span> </div>
+        <div class="card-expand" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="expand-icon">▼</span> Ver detalle
+        </div>
+        <div class="card-body">
+            
+            
+            <div class="card-section">
+                <div class="section-title">Desglose de puntaje</div>
+                <div class="scores-grid">
+            <div class="score-row">
+                <span class="score-label">A. Construccion</span>
+                <div class="score-track"><div class="score-fill" style="width:10%"></div></div>
+                <span class="score-val">3/30</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">B. IA/LLM/RAG</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/25</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">C. Automatizacion</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/20</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">D. DB + Codigo</span>
+                <div class="score-track"><div class="score-fill" style="width:13%"></div></div>
+                <span class="score-val">2/15</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">E. Potencial</span>
+                <div class="score-track"><div class="score-fill" style="width:30%"></div></div>
+                <span class="score-val">3/10</span>
+            </div><div class="score-row adj"><span class="score-label">Ajustes</span><span class="score-val">-3</span></div></div>
+            </div>
+            
+            
+            
+            <div class="card-section"><div class="section-title">Ajustes de puntaje</div><div class="findings" style="color:var(--text-dim);">-3 sin respuestas calificatorias</div></div>
+            <div class="card-section"><div class="section-title">Evidencia verificada (investigacion)</div><div class="findings">Auto-investigado por monitor. GitHub: 0 repos, 0 lenguajes. Deploys vivos: 0. AI repos: 0.</div></div>
+            
+            <div class="card-section"><div class="section-title">Respuestas calificatorias</div><div class="qa-list"></div></div>
+            <div class="card-section"><div class="section-title">Recomendacion</div><div class="recommendation">No recomendado — Auto-score 5pts. Scoring automático conservador, revisar si hay señales positivas.</div></div>
+            <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">PENDIENTE: Auto-ingresado por monitor de portales</div></div>
+        </div>
+    </div>
+    <div class="candidate-card" data-tier="D" data-source="INACAP" data-score="5" data-name="jose francisco fuentes zuniga">
+        <div class="card-header">
+            <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
+                <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">JF</div>
+                <div>
+                    <div class="card-name">#74 JOSE FRANCISCO FUENTES ZUNIGA</div>
+                    <div class="card-meta">
+                        <span class="source-badge">INACAP</span>
+                        <span class="sep">·</span>
+                        <span>Sin exp.</span>
+                        <span class="sep">·</span>
+                        <span>$1,800</span>
+                    </div>
+                    
+                    <div class="card-edu">Ingeniero en Automatización y Robótica,  INACAP (Estudiante),
+                                                          ...</div>
+                    
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="score-badge tier-d">5<small>/100</small></div>
+                <div class="tier-label tier-d">TIER D — Descartar</div>
+            </div>
+        </div>
+        <div class="card-links-bar"><span class="link-chip link-answers">Tiene Respuestas</span> </div>
+        <div class="card-expand" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="expand-icon">▼</span> Ver detalle
+        </div>
+        <div class="card-body">
+            
+            
+            <div class="card-section">
+                <div class="section-title">Desglose de puntaje</div>
+                <div class="scores-grid">
+            <div class="score-row">
+                <span class="score-label">A. Construccion</span>
+                <div class="score-track"><div class="score-fill" style="width:10%"></div></div>
+                <span class="score-val">3/30</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">B. IA/LLM/RAG</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/25</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">C. Automatizacion</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/20</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">D. DB + Codigo</span>
+                <div class="score-track"><div class="score-fill" style="width:13%"></div></div>
+                <span class="score-val">2/15</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">E. Potencial</span>
+                <div class="score-track"><div class="score-fill" style="width:30%"></div></div>
+                <span class="score-val">3/10</span>
+            </div><div class="score-row adj"><span class="score-label">Ajustes</span><span class="score-val">-3</span></div></div>
+            </div>
+            
+            
+            
+            <div class="card-section"><div class="section-title">Ajustes de puntaje</div><div class="findings" style="color:var(--text-dim);">-3 sin respuestas calificatorias</div></div>
+            <div class="card-section"><div class="section-title">Evidencia verificada (investigacion)</div><div class="findings">Auto-investigado por monitor. GitHub: 0 repos, 0 lenguajes. Deploys vivos: 0. AI repos: 0.</div></div>
+            
+            <div class="card-section"><div class="section-title">Respuestas calificatorias</div><div class="qa-list"></div></div>
+            <div class="card-section"><div class="section-title">Recomendacion</div><div class="recommendation">No recomendado — Auto-score 5pts. Scoring automático conservador, revisar si hay señales positivas.</div></div>
+            <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">PENDIENTE: Auto-ingresado por monitor de portales</div></div>
+        </div>
+    </div>
+    <div class="candidate-card" data-tier="D" data-source="INACAP" data-score="5" data-name="braulio ernesto rojas soto">
+        <div class="card-header">
+            <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
+                <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">BE</div>
+                <div>
+                    <div class="card-name">#75 BRAULIO ERNESTO ROJAS SOTO</div>
+                    <div class="card-meta">
+                        <span class="source-badge">INACAP</span>
+                        <span class="sep">·</span>
+                        <span>Sin exp.</span>
+                        <span class="sep">·</span>
+                        <span>$1,250,000</span>
+                    </div>
+                    
+                    <div class="card-edu">Técnico de Nivel Superior Analista Programador,  INACAP (Titulado),
+                                                    ...</div>
+                    
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="score-badge tier-d">5<small>/100</small></div>
+                <div class="tier-label tier-d">TIER D — Descartar</div>
+            </div>
+        </div>
+        <div class="card-links-bar"><span class="link-chip link-answers">Tiene Respuestas</span> </div>
+        <div class="card-expand" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="expand-icon">▼</span> Ver detalle
+        </div>
+        <div class="card-body">
+            
+            
+            <div class="card-section">
+                <div class="section-title">Desglose de puntaje</div>
+                <div class="scores-grid">
+            <div class="score-row">
+                <span class="score-label">A. Construccion</span>
+                <div class="score-track"><div class="score-fill" style="width:10%"></div></div>
+                <span class="score-val">3/30</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">B. IA/LLM/RAG</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/25</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">C. Automatizacion</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/20</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">D. DB + Codigo</span>
+                <div class="score-track"><div class="score-fill" style="width:13%"></div></div>
+                <span class="score-val">2/15</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">E. Potencial</span>
+                <div class="score-track"><div class="score-fill" style="width:30%"></div></div>
+                <span class="score-val">3/10</span>
+            </div><div class="score-row adj"><span class="score-label">Ajustes</span><span class="score-val">-3</span></div></div>
+            </div>
+            
+            
+            
+            <div class="card-section"><div class="section-title">Ajustes de puntaje</div><div class="findings" style="color:var(--text-dim);">-3 sin respuestas calificatorias</div></div>
+            <div class="card-section"><div class="section-title">Evidencia verificada (investigacion)</div><div class="findings">Auto-investigado por monitor. GitHub: 0 repos, 0 lenguajes. Deploys vivos: 0. AI repos: 0.</div></div>
+            
+            <div class="card-section"><div class="section-title">Respuestas calificatorias</div><div class="qa-list"></div></div>
+            <div class="card-section"><div class="section-title">Recomendacion</div><div class="recommendation">No recomendado — Auto-score 5pts. Scoring automático conservador, revisar si hay señales positivas.</div></div>
+            <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">PENDIENTE: Auto-ingresado por monitor de portales</div></div>
+        </div>
+    </div>
+    <div class="candidate-card" data-tier="D" data-source="INACAP" data-score="5" data-name="jean pierre alexander rivera muñoz">
+        <div class="card-header">
+            <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
+                <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">JP</div>
+                <div>
+                    <div class="card-name">#76 Jean Pierre Alexander Rivera Muñoz</div>
+                    <div class="card-meta">
+                        <span class="source-badge">INACAP</span>
+                        <span class="sep">·</span>
+                        <span>Sin exp.</span>
+                        <span class="sep">·</span>
+                        <span>$1,000,000</span>
+                    </div>
+                    
+                    <div class="card-edu">Ingeniero en Informática,  INACAP (Egresado),
+                                                                          ...</div>
+                    
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="score-badge tier-d">5<small>/100</small></div>
+                <div class="tier-label tier-d">TIER D — Descartar</div>
+            </div>
+        </div>
+        <div class="card-links-bar"><span class="link-chip link-answers">Tiene Respuestas</span> </div>
+        <div class="card-expand" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="expand-icon">▼</span> Ver detalle
+        </div>
+        <div class="card-body">
+            
+            
+            <div class="card-section">
+                <div class="section-title">Desglose de puntaje</div>
+                <div class="scores-grid">
+            <div class="score-row">
+                <span class="score-label">A. Construccion</span>
+                <div class="score-track"><div class="score-fill" style="width:10%"></div></div>
+                <span class="score-val">3/30</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">B. IA/LLM/RAG</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/25</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">C. Automatizacion</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/20</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">D. DB + Codigo</span>
+                <div class="score-track"><div class="score-fill" style="width:13%"></div></div>
+                <span class="score-val">2/15</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">E. Potencial</span>
+                <div class="score-track"><div class="score-fill" style="width:30%"></div></div>
+                <span class="score-val">3/10</span>
+            </div><div class="score-row adj"><span class="score-label">Ajustes</span><span class="score-val">-3</span></div></div>
+            </div>
+            
+            
+            
+            <div class="card-section"><div class="section-title">Ajustes de puntaje</div><div class="findings" style="color:var(--text-dim);">-3 sin respuestas calificatorias</div></div>
+            <div class="card-section"><div class="section-title">Evidencia verificada (investigacion)</div><div class="findings">Auto-investigado por monitor. GitHub: 0 repos, 0 lenguajes. Deploys vivos: 0. AI repos: 0.</div></div>
+            
+            <div class="card-section"><div class="section-title">Respuestas calificatorias</div><div class="qa-list"></div></div>
+            <div class="card-section"><div class="section-title">Recomendacion</div><div class="recommendation">No recomendado — Auto-score 5pts. Scoring automático conservador, revisar si hay señales positivas.</div></div>
+            <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">PENDIENTE: Auto-ingresado por monitor de portales</div></div>
+        </div>
+    </div>
+    <div class="candidate-card" data-tier="D" data-source="INACAP" data-score="5" data-name="tomas  jose carvajal jara">
+        <div class="card-header">
+            <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
+                <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">TJ</div>
+                <div>
+                    <div class="card-name">#77 TOMAS  JOSE CARVAJAL JARA</div>
+                    <div class="card-meta">
+                        <span class="source-badge">INACAP</span>
+                        <span class="sep">·</span>
+                        <span>Sin exp.</span>
+                        <span class="sep">·</span>
+                        <span>$1,200,000</span>
+                    </div>
+                    
+                    <div class="card-edu">Técnico de Nivel Superior en Automatización y Control Industrial,  INACAP (Titulado),
+                                  ...</div>
+                    
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="score-badge tier-d">5<small>/100</small></div>
+                <div class="tier-label tier-d">TIER D — Descartar</div>
+            </div>
+        </div>
+        <div class="card-links-bar"><span class="link-chip link-answers">Tiene Respuestas</span> </div>
+        <div class="card-expand" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="expand-icon">▼</span> Ver detalle
+        </div>
+        <div class="card-body">
+            
+            
+            <div class="card-section">
+                <div class="section-title">Desglose de puntaje</div>
+                <div class="scores-grid">
+            <div class="score-row">
+                <span class="score-label">A. Construccion</span>
+                <div class="score-track"><div class="score-fill" style="width:10%"></div></div>
+                <span class="score-val">3/30</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">B. IA/LLM/RAG</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/25</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">C. Automatizacion</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/20</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">D. DB + Codigo</span>
+                <div class="score-track"><div class="score-fill" style="width:13%"></div></div>
+                <span class="score-val">2/15</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">E. Potencial</span>
+                <div class="score-track"><div class="score-fill" style="width:30%"></div></div>
+                <span class="score-val">3/10</span>
+            </div><div class="score-row adj"><span class="score-label">Ajustes</span><span class="score-val">-3</span></div></div>
+            </div>
+            
+            
+            
+            <div class="card-section"><div class="section-title">Ajustes de puntaje</div><div class="findings" style="color:var(--text-dim);">-3 sin respuestas calificatorias</div></div>
+            <div class="card-section"><div class="section-title">Evidencia verificada (investigacion)</div><div class="findings">Auto-investigado por monitor. GitHub: 0 repos, 0 lenguajes. Deploys vivos: 0. AI repos: 0.</div></div>
+            
+            <div class="card-section"><div class="section-title">Respuestas calificatorias</div><div class="qa-list"></div></div>
+            <div class="card-section"><div class="section-title">Recomendacion</div><div class="recommendation">No recomendado — Auto-score 5pts. Scoring automático conservador, revisar si hay señales positivas.</div></div>
+            <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">PENDIENTE: Auto-ingresado por monitor de portales</div></div>
+        </div>
+    </div>
+    <div class="candidate-card" data-tier="D" data-source="INACAP" data-score="5" data-name="alfonso javier romero martinez">
+        <div class="card-header">
+            <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
+                <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">AJ</div>
+                <div>
+                    <div class="card-name">#78 ALFONSO JAVIER ROMERO MARTINEZ</div>
+                    <div class="card-meta">
+                        <span class="source-badge">INACAP</span>
+                        <span class="sep">·</span>
+                        <span>Sin exp.</span>
+                        <span class="sep">·</span>
+                        <span>$1,600,000</span>
+                    </div>
+                    
+                    <div class="card-edu">Ingeniero en Informática,  INACAP (Titulado),
+                                                                          ...</div>
+                    
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="score-badge tier-d">5<small>/100</small></div>
+                <div class="tier-label tier-d">TIER D — Descartar</div>
+            </div>
+        </div>
+        <div class="card-links-bar"><span class="link-chip link-answers">Tiene Respuestas</span> </div>
+        <div class="card-expand" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="expand-icon">▼</span> Ver detalle
+        </div>
+        <div class="card-body">
+            
+            
+            <div class="card-section">
+                <div class="section-title">Desglose de puntaje</div>
+                <div class="scores-grid">
+            <div class="score-row">
+                <span class="score-label">A. Construccion</span>
+                <div class="score-track"><div class="score-fill" style="width:10%"></div></div>
+                <span class="score-val">3/30</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">B. IA/LLM/RAG</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/25</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">C. Automatizacion</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/20</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">D. DB + Codigo</span>
+                <div class="score-track"><div class="score-fill" style="width:13%"></div></div>
+                <span class="score-val">2/15</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">E. Potencial</span>
+                <div class="score-track"><div class="score-fill" style="width:30%"></div></div>
+                <span class="score-val">3/10</span>
+            </div><div class="score-row adj"><span class="score-label">Ajustes</span><span class="score-val">-3</span></div></div>
+            </div>
+            
+            
+            
+            <div class="card-section"><div class="section-title">Ajustes de puntaje</div><div class="findings" style="color:var(--text-dim);">-3 sin respuestas calificatorias</div></div>
+            <div class="card-section"><div class="section-title">Evidencia verificada (investigacion)</div><div class="findings">Auto-investigado por monitor. GitHub: 0 repos, 0 lenguajes. Deploys vivos: 0. AI repos: 0.</div></div>
+            
+            <div class="card-section"><div class="section-title">Respuestas calificatorias</div><div class="qa-list"></div></div>
+            <div class="card-section"><div class="section-title">Recomendacion</div><div class="recommendation">No recomendado — Auto-score 5pts. Scoring automático conservador, revisar si hay señales positivas.</div></div>
+            <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">PENDIENTE: Auto-ingresado por monitor de portales</div></div>
+        </div>
+    </div>
+    <div class="candidate-card" data-tier="D" data-source="INACAP" data-score="5" data-name="bastian samuel flores mesina">
+        <div class="card-header">
+            <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
+                <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">BS</div>
+                <div>
+                    <div class="card-name">#79 BASTIAN SAMUEL FLORES MESINA</div>
+                    <div class="card-meta">
+                        <span class="source-badge">INACAP</span>
+                        <span class="sep">·</span>
+                        <span>Sin exp.</span>
+                        <span class="sep">·</span>
+                        <span>$600,000</span>
+                    </div>
+                    
+                    <div class="card-edu">Técnico de Nivel Superior Analista Programador,  INACAP (Titulado),
+                                                    ...</div>
+                    
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="score-badge tier-d">5<small>/100</small></div>
+                <div class="tier-label tier-d">TIER D — Descartar</div>
+            </div>
+        </div>
+        <div class="card-links-bar"><span class="link-chip link-answers">Tiene Respuestas</span> </div>
+        <div class="card-expand" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="expand-icon">▼</span> Ver detalle
+        </div>
+        <div class="card-body">
+            
+            
+            <div class="card-section">
+                <div class="section-title">Desglose de puntaje</div>
+                <div class="scores-grid">
+            <div class="score-row">
+                <span class="score-label">A. Construccion</span>
+                <div class="score-track"><div class="score-fill" style="width:10%"></div></div>
+                <span class="score-val">3/30</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">B. IA/LLM/RAG</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/25</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">C. Automatizacion</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/20</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">D. DB + Codigo</span>
+                <div class="score-track"><div class="score-fill" style="width:13%"></div></div>
+                <span class="score-val">2/15</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">E. Potencial</span>
+                <div class="score-track"><div class="score-fill" style="width:30%"></div></div>
+                <span class="score-val">3/10</span>
+            </div><div class="score-row adj"><span class="score-label">Ajustes</span><span class="score-val">-3</span></div></div>
+            </div>
+            
+            
+            
+            <div class="card-section"><div class="section-title">Ajustes de puntaje</div><div class="findings" style="color:var(--text-dim);">-3 sin respuestas calificatorias</div></div>
+            <div class="card-section"><div class="section-title">Evidencia verificada (investigacion)</div><div class="findings">Auto-investigado por monitor. GitHub: 0 repos, 0 lenguajes. Deploys vivos: 0. AI repos: 0.</div></div>
+            
+            <div class="card-section"><div class="section-title">Respuestas calificatorias</div><div class="qa-list"></div></div>
+            <div class="card-section"><div class="section-title">Recomendacion</div><div class="recommendation">No recomendado — Auto-score 5pts. Scoring automático conservador, revisar si hay señales positivas.</div></div>
+            <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">PENDIENTE: Auto-ingresado por monitor de portales</div></div>
+        </div>
+    </div>
+    <div class="candidate-card" data-tier="D" data-source="INACAP" data-score="5" data-name="cristopher cortinez silva">
+        <div class="card-header">
+            <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
+                <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">CC</div>
+                <div>
+                    <div class="card-name">#80 Cristopher Cortinez Silva</div>
+                    <div class="card-meta">
+                        <span class="source-badge">INACAP</span>
+                        <span class="sep">·</span>
+                        <span>Sin exp.</span>
+                        <span class="sep">·</span>
+                        <span>$1,400,000</span>
+                    </div>
+                    
+                    <div class="card-edu">Ingeniero en Informática,  INACAP (Estudiante),
+                                                                        ...</div>
+                    
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="score-badge tier-d">5<small>/100</small></div>
+                <div class="tier-label tier-d">TIER D — Descartar</div>
+            </div>
+        </div>
+        <div class="card-links-bar"><span class="link-chip link-answers">Tiene Respuestas</span> </div>
+        <div class="card-expand" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="expand-icon">▼</span> Ver detalle
+        </div>
+        <div class="card-body">
+            
+            
+            <div class="card-section">
+                <div class="section-title">Desglose de puntaje</div>
+                <div class="scores-grid">
+            <div class="score-row">
+                <span class="score-label">A. Construccion</span>
+                <div class="score-track"><div class="score-fill" style="width:10%"></div></div>
+                <span class="score-val">3/30</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">B. IA/LLM/RAG</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/25</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">C. Automatizacion</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/20</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">D. DB + Codigo</span>
+                <div class="score-track"><div class="score-fill" style="width:13%"></div></div>
+                <span class="score-val">2/15</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">E. Potencial</span>
+                <div class="score-track"><div class="score-fill" style="width:30%"></div></div>
+                <span class="score-val">3/10</span>
+            </div><div class="score-row adj"><span class="score-label">Ajustes</span><span class="score-val">-3</span></div></div>
+            </div>
+            
+            
+            
+            <div class="card-section"><div class="section-title">Ajustes de puntaje</div><div class="findings" style="color:var(--text-dim);">-3 sin respuestas calificatorias</div></div>
+            <div class="card-section"><div class="section-title">Evidencia verificada (investigacion)</div><div class="findings">Auto-investigado por monitor. GitHub: 0 repos, 0 lenguajes. Deploys vivos: 0. AI repos: 0.</div></div>
+            
+            <div class="card-section"><div class="section-title">Respuestas calificatorias</div><div class="qa-list"></div></div>
+            <div class="card-section"><div class="section-title">Recomendacion</div><div class="recommendation">No recomendado — Auto-score 5pts. Scoring automático conservador, revisar si hay señales positivas.</div></div>
+            <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">PENDIENTE: Auto-ingresado por monitor de portales</div></div>
+        </div>
+    </div>
+    <div class="candidate-card" data-tier="D" data-source="INACAP" data-score="5" data-name="miguel patricio ramon cabeza contreras">
+        <div class="card-header">
+            <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
+                <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">MP</div>
+                <div>
+                    <div class="card-name">#81 MIGUEL PATRICIO RAMON CABEZA CONTRERAS</div>
+                    <div class="card-meta">
+                        <span class="source-badge">INACAP</span>
+                        <span class="sep">·</span>
+                        <span>Sin exp.</span>
+                        <span class="sep">·</span>
+                        <span>$1,000,000</span>
+                    </div>
+                    
+                    <div class="card-edu">Ingeniero en Automatización y Control Industrial,  INACAP (Egresado),
+                                                  ...</div>
+                    
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="score-badge tier-d">5<small>/100</small></div>
+                <div class="tier-label tier-d">TIER D — Descartar</div>
+            </div>
+        </div>
+        <div class="card-links-bar"><span class="link-chip link-answers">Tiene Respuestas</span> </div>
+        <div class="card-expand" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="expand-icon">▼</span> Ver detalle
+        </div>
+        <div class="card-body">
+            
+            
+            <div class="card-section">
+                <div class="section-title">Desglose de puntaje</div>
+                <div class="scores-grid">
+            <div class="score-row">
+                <span class="score-label">A. Construccion</span>
+                <div class="score-track"><div class="score-fill" style="width:10%"></div></div>
+                <span class="score-val">3/30</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">B. IA/LLM/RAG</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/25</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">C. Automatizacion</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/20</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">D. DB + Codigo</span>
+                <div class="score-track"><div class="score-fill" style="width:13%"></div></div>
+                <span class="score-val">2/15</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">E. Potencial</span>
+                <div class="score-track"><div class="score-fill" style="width:30%"></div></div>
+                <span class="score-val">3/10</span>
+            </div><div class="score-row adj"><span class="score-label">Ajustes</span><span class="score-val">-3</span></div></div>
+            </div>
+            
+            
+            
+            <div class="card-section"><div class="section-title">Ajustes de puntaje</div><div class="findings" style="color:var(--text-dim);">-3 sin respuestas calificatorias</div></div>
+            <div class="card-section"><div class="section-title">Evidencia verificada (investigacion)</div><div class="findings">Auto-investigado por monitor. GitHub: 0 repos, 0 lenguajes. Deploys vivos: 0. AI repos: 0.</div></div>
+            
+            <div class="card-section"><div class="section-title">Respuestas calificatorias</div><div class="qa-list"></div></div>
+            <div class="card-section"><div class="section-title">Recomendacion</div><div class="recommendation">No recomendado — Auto-score 5pts. Scoring automático conservador, revisar si hay señales positivas.</div></div>
+            <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">PENDIENTE: Auto-ingresado por monitor de portales</div></div>
+        </div>
+    </div>
+    <div class="candidate-card" data-tier="D" data-source="INACAP" data-score="5" data-name="ignacio andres garrido carrasco">
+        <div class="card-header">
+            <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
+                <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">IA</div>
+                <div>
+                    <div class="card-name">#82 IGNACIO ANDRES GARRIDO CARRASCO</div>
+                    <div class="card-meta">
+                        <span class="source-badge">INACAP</span>
+                        <span class="sep">·</span>
+                        <span>Sin exp.</span>
+                        <span class="sep">·</span>
+                        <span>$800,000</span>
+                    </div>
+                    
+                    <div class="card-edu">Ingeniero en Informática,  INACAP (Titulado),
+                                                                          ...</div>
+                    
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="score-badge tier-d">5<small>/100</small></div>
+                <div class="tier-label tier-d">TIER D — Descartar</div>
+            </div>
+        </div>
+        <div class="card-links-bar"><span class="link-chip link-answers">Tiene Respuestas</span> </div>
+        <div class="card-expand" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="expand-icon">▼</span> Ver detalle
+        </div>
+        <div class="card-body">
+            
+            
+            <div class="card-section">
+                <div class="section-title">Desglose de puntaje</div>
+                <div class="scores-grid">
+            <div class="score-row">
+                <span class="score-label">A. Construccion</span>
+                <div class="score-track"><div class="score-fill" style="width:10%"></div></div>
+                <span class="score-val">3/30</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">B. IA/LLM/RAG</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/25</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">C. Automatizacion</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/20</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">D. DB + Codigo</span>
+                <div class="score-track"><div class="score-fill" style="width:13%"></div></div>
+                <span class="score-val">2/15</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">E. Potencial</span>
+                <div class="score-track"><div class="score-fill" style="width:30%"></div></div>
+                <span class="score-val">3/10</span>
+            </div><div class="score-row adj"><span class="score-label">Ajustes</span><span class="score-val">-3</span></div></div>
+            </div>
+            
+            
+            
+            <div class="card-section"><div class="section-title">Ajustes de puntaje</div><div class="findings" style="color:var(--text-dim);">-3 sin respuestas calificatorias</div></div>
+            <div class="card-section"><div class="section-title">Evidencia verificada (investigacion)</div><div class="findings">Auto-investigado por monitor. GitHub: 0 repos, 0 lenguajes. Deploys vivos: 0. AI repos: 0.</div></div>
+            
+            <div class="card-section"><div class="section-title">Respuestas calificatorias</div><div class="qa-list"></div></div>
+            <div class="card-section"><div class="section-title">Recomendacion</div><div class="recommendation">No recomendado — Auto-score 5pts. Scoring automático conservador, revisar si hay señales positivas.</div></div>
+            <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">PENDIENTE: Auto-ingresado por monitor de portales</div></div>
+        </div>
+    </div>
+    <div class="candidate-card" data-tier="D" data-source="INACAP" data-score="5" data-name="yarodt nicolas neira perez">
+        <div class="card-header">
+            <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
+                <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">YN</div>
+                <div>
+                    <div class="card-name">#83 YARODT NICOLAS NEIRA PEREZ</div>
+                    <div class="card-meta">
+                        <span class="source-badge">INACAP</span>
+                        <span class="sep">·</span>
+                        <span>Sin exp.</span>
+                        <span class="sep">·</span>
+                        <span>Sin dato</span>
+                    </div>
+                    
+                    <div class="card-edu">Ingeniero en Informática,  INACAP (Titulado),
+                                                                          ...</div>
+                    
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="score-badge tier-d">5<small>/100</small></div>
+                <div class="tier-label tier-d">TIER D — Descartar</div>
+            </div>
+        </div>
+        <div class="card-links-bar"><span class="link-chip link-answers">Tiene Respuestas</span> </div>
+        <div class="card-expand" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="expand-icon">▼</span> Ver detalle
+        </div>
+        <div class="card-body">
+            
+            
+            <div class="card-section">
+                <div class="section-title">Desglose de puntaje</div>
+                <div class="scores-grid">
+            <div class="score-row">
+                <span class="score-label">A. Construccion</span>
+                <div class="score-track"><div class="score-fill" style="width:10%"></div></div>
+                <span class="score-val">3/30</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">B. IA/LLM/RAG</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/25</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">C. Automatizacion</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/20</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">D. DB + Codigo</span>
+                <div class="score-track"><div class="score-fill" style="width:13%"></div></div>
+                <span class="score-val">2/15</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">E. Potencial</span>
+                <div class="score-track"><div class="score-fill" style="width:30%"></div></div>
+                <span class="score-val">3/10</span>
+            </div><div class="score-row adj"><span class="score-label">Ajustes</span><span class="score-val">-3</span></div></div>
+            </div>
+            
+            
+            
+            <div class="card-section"><div class="section-title">Ajustes de puntaje</div><div class="findings" style="color:var(--text-dim);">-3 sin respuestas calificatorias</div></div>
+            <div class="card-section"><div class="section-title">Evidencia verificada (investigacion)</div><div class="findings">Auto-investigado por monitor. GitHub: 0 repos, 0 lenguajes. Deploys vivos: 0. AI repos: 0.</div></div>
+            
+            <div class="card-section"><div class="section-title">Respuestas calificatorias</div><div class="qa-list"></div></div>
+            <div class="card-section"><div class="section-title">Recomendacion</div><div class="recommendation">No recomendado — Auto-score 5pts. Scoring automático conservador, revisar si hay señales positivas.</div></div>
+            <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">PENDIENTE: Auto-ingresado por monitor de portales</div></div>
+        </div>
+    </div>
+    <div class="candidate-card" data-tier="D" data-source="INACAP" data-score="5" data-name="pablo ariel vasquez corvalan">
+        <div class="card-header">
+            <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
+                <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">PA</div>
+                <div>
+                    <div class="card-name">#84 PABLO ARIEL VASQUEZ CORVALAN</div>
+                    <div class="card-meta">
+                        <span class="source-badge">INACAP</span>
+                        <span class="sep">·</span>
+                        <span>Sin exp.</span>
+                        <span class="sep">·</span>
+                        <span>$1,000,000</span>
+                    </div>
+                    
+                    <div class="card-edu">Ingeniero en Informática,  INACAP (Estudiante),
+                                                                        ...</div>
+                    
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="score-badge tier-d">5<small>/100</small></div>
+                <div class="tier-label tier-d">TIER D — Descartar</div>
+            </div>
+        </div>
+        <div class="card-links-bar"><span class="link-chip link-answers">Tiene Respuestas</span> </div>
+        <div class="card-expand" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="expand-icon">▼</span> Ver detalle
+        </div>
+        <div class="card-body">
+            
+            
+            <div class="card-section">
+                <div class="section-title">Desglose de puntaje</div>
+                <div class="scores-grid">
+            <div class="score-row">
+                <span class="score-label">A. Construccion</span>
+                <div class="score-track"><div class="score-fill" style="width:10%"></div></div>
+                <span class="score-val">3/30</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">B. IA/LLM/RAG</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/25</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">C. Automatizacion</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/20</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">D. DB + Codigo</span>
+                <div class="score-track"><div class="score-fill" style="width:13%"></div></div>
+                <span class="score-val">2/15</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">E. Potencial</span>
+                <div class="score-track"><div class="score-fill" style="width:30%"></div></div>
+                <span class="score-val">3/10</span>
+            </div><div class="score-row adj"><span class="score-label">Ajustes</span><span class="score-val">-3</span></div></div>
+            </div>
+            
+            
+            
+            <div class="card-section"><div class="section-title">Ajustes de puntaje</div><div class="findings" style="color:var(--text-dim);">-3 sin respuestas calificatorias</div></div>
+            <div class="card-section"><div class="section-title">Evidencia verificada (investigacion)</div><div class="findings">Auto-investigado por monitor. GitHub: 0 repos, 0 lenguajes. Deploys vivos: 0. AI repos: 0.</div></div>
+            
+            <div class="card-section"><div class="section-title">Respuestas calificatorias</div><div class="qa-list"></div></div>
+            <div class="card-section"><div class="section-title">Recomendacion</div><div class="recommendation">No recomendado — Auto-score 5pts. Scoring automático conservador, revisar si hay señales positivas.</div></div>
+            <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">PENDIENTE: Auto-ingresado por monitor de portales</div></div>
+        </div>
+    </div>
+    <div class="candidate-card" data-tier="D" data-source="INACAP" data-score="5" data-name="matias ignacio torres torres">
+        <div class="card-header">
+            <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
+                <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">MI</div>
+                <div>
+                    <div class="card-name">#85 MATIAS IGNACIO TORRES TORRES</div>
+                    <div class="card-meta">
+                        <span class="source-badge">INACAP</span>
+                        <span class="sep">·</span>
+                        <span>Sin exp.</span>
+                        <span class="sep">·</span>
+                        <span>$300,000</span>
+                    </div>
+                    
+                    <div class="card-edu">Ingeniero en Informática,  INACAP (Estudiante),
+                                                                        ...</div>
+                    
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="score-badge tier-d">5<small>/100</small></div>
+                <div class="tier-label tier-d">TIER D — Descartar</div>
+            </div>
+        </div>
+        <div class="card-links-bar"><span class="link-chip link-answers">Tiene Respuestas</span> </div>
+        <div class="card-expand" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="expand-icon">▼</span> Ver detalle
+        </div>
+        <div class="card-body">
+            
+            
+            <div class="card-section">
+                <div class="section-title">Desglose de puntaje</div>
+                <div class="scores-grid">
+            <div class="score-row">
+                <span class="score-label">A. Construccion</span>
+                <div class="score-track"><div class="score-fill" style="width:10%"></div></div>
+                <span class="score-val">3/30</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">B. IA/LLM/RAG</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/25</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">C. Automatizacion</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/20</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">D. DB + Codigo</span>
+                <div class="score-track"><div class="score-fill" style="width:13%"></div></div>
+                <span class="score-val">2/15</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">E. Potencial</span>
+                <div class="score-track"><div class="score-fill" style="width:30%"></div></div>
+                <span class="score-val">3/10</span>
+            </div><div class="score-row adj"><span class="score-label">Ajustes</span><span class="score-val">-3</span></div></div>
+            </div>
+            
+            
+            
+            <div class="card-section"><div class="section-title">Ajustes de puntaje</div><div class="findings" style="color:var(--text-dim);">-3 sin respuestas calificatorias</div></div>
+            <div class="card-section"><div class="section-title">Evidencia verificada (investigacion)</div><div class="findings">Auto-investigado por monitor. GitHub: 0 repos, 0 lenguajes. Deploys vivos: 0. AI repos: 0.</div></div>
+            
+            <div class="card-section"><div class="section-title">Respuestas calificatorias</div><div class="qa-list"></div></div>
+            <div class="card-section"><div class="section-title">Recomendacion</div><div class="recommendation">No recomendado — Auto-score 5pts. Scoring automático conservador, revisar si hay señales positivas.</div></div>
+            <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">PENDIENTE: Auto-ingresado por monitor de portales</div></div>
+        </div>
+    </div>
+    <div class="candidate-card" data-tier="D" data-source="INACAP" data-score="5" data-name="jarod william christofer arteaga acosta">
+        <div class="card-header">
+            <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
+                <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">JW</div>
+                <div>
+                    <div class="card-name">#86 Jarod William Christofer Arteaga Acosta</div>
+                    <div class="card-meta">
+                        <span class="source-badge">INACAP</span>
+                        <span class="sep">·</span>
+                        <span>Sin exp.</span>
+                        <span class="sep">·</span>
+                        <span>$600,000</span>
+                    </div>
+                    
+                    <div class="card-edu">Ingeniero en Informática,  INACAP (Estudiante),
+                                                                        ...</div>
+                    
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="score-badge tier-d">5<small>/100</small></div>
+                <div class="tier-label tier-d">TIER D — Descartar</div>
+            </div>
+        </div>
+        <div class="card-links-bar"><span class="link-chip link-answers">Tiene Respuestas</span> </div>
+        <div class="card-expand" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="expand-icon">▼</span> Ver detalle
+        </div>
+        <div class="card-body">
+            
+            
+            <div class="card-section">
+                <div class="section-title">Desglose de puntaje</div>
+                <div class="scores-grid">
+            <div class="score-row">
+                <span class="score-label">A. Construccion</span>
+                <div class="score-track"><div class="score-fill" style="width:10%"></div></div>
+                <span class="score-val">3/30</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">B. IA/LLM/RAG</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/25</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">C. Automatizacion</span>
+                <div class="score-track"><div class="score-fill" style="width:0%"></div></div>
+                <span class="score-val">0/20</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">D. DB + Codigo</span>
+                <div class="score-track"><div class="score-fill" style="width:13%"></div></div>
+                <span class="score-val">2/15</span>
+            </div>
+            <div class="score-row">
+                <span class="score-label">E. Potencial</span>
+                <div class="score-track"><div class="score-fill" style="width:30%"></div></div>
+                <span class="score-val">3/10</span>
+            </div><div class="score-row adj"><span class="score-label">Ajustes</span><span class="score-val">-3</span></div></div>
+            </div>
+            
+            
+            
+            <div class="card-section"><div class="section-title">Ajustes de puntaje</div><div class="findings" style="color:var(--text-dim);">-3 sin respuestas calificatorias</div></div>
+            <div class="card-section"><div class="section-title">Evidencia verificada (investigacion)</div><div class="findings">Auto-investigado por monitor. GitHub: 0 repos, 0 lenguajes. Deploys vivos: 0. AI repos: 0.</div></div>
+            
+            <div class="card-section"><div class="section-title">Respuestas calificatorias</div><div class="qa-list"></div></div>
+            <div class="card-section"><div class="section-title">Recomendacion</div><div class="recommendation">No recomendado — Auto-score 5pts. Scoring automático conservador, revisar si hay señales positivas.</div></div>
+            <div class="card-section"><div class="section-title">Pre-filtro</div><div class="prefiltro">PENDIENTE: Auto-ingresado por monitor de portales</div></div>
+        </div>
+    </div>
     <div class="candidate-card" data-tier="D" data-source="Duoc" data-score="4" data-name="victor andres galvez parraguez">
         <div class="card-header">
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">VA</div>
                 <div>
-                    <div class="card-name">#62 Victor Andres Galvez Parraguez</div>
+                    <div class="card-name">#87 Victor Andres Galvez Parraguez</div>
                     <div class="card-meta">
                         <span class="source-badge">Duoc</span>
                         <span class="sep">·</span>
@@ -4586,7 +6361,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">CA</div>
                 <div>
-                    <div class="card-name">#63 Cristhian Alonso Garcia Zamora</div>
+                    <div class="card-name">#88 Cristhian Alonso Garcia Zamora</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -4656,7 +6431,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">NI</div>
                 <div>
-                    <div class="card-name">#64 Nicolas Ignacio Eduardo Aguilera Aguilera</div>
+                    <div class="card-name">#89 Nicolas Ignacio Eduardo Aguilera Aguilera</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -4726,7 +6501,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">NI</div>
                 <div>
-                    <div class="card-name">#65 Nicolas Ignacio Rubilar Morales</div>
+                    <div class="card-name">#90 Nicolas Ignacio Rubilar Morales</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -4796,7 +6571,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">BI</div>
                 <div>
-                    <div class="card-name">#66 Benjamín Ignacio Martínez Caro</div>
+                    <div class="card-name">#91 Benjamín Ignacio Martínez Caro</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -4866,7 +6641,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">GA</div>
                 <div>
-                    <div class="card-name">#67 Gonzalo Alberto Rojas Barra</div>
+                    <div class="card-name">#92 Gonzalo Alberto Rojas Barra</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -4939,7 +6714,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">JI</div>
                 <div>
-                    <div class="card-name">#68 Joel Isaías Pino Castillo</div>
+                    <div class="card-name">#93 Joel Isaías Pino Castillo</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -5009,7 +6784,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">NO</div>
                 <div>
-                    <div class="card-name">#69 Nicolas Ortega Munoz</div>
+                    <div class="card-name">#94 Nicolas Ortega Munoz</div>
                     <div class="card-meta">
                         <span class="source-badge">Duoc</span>
                         <span class="sep">·</span>
@@ -5079,7 +6854,7 @@
             <div class="card-left" style="display:flex;gap:16px;align-items:flex-start;flex:1;">
                 <div class="avatar avatar-initials" style="display:flex;justify-content:center;align-items:center;background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:18px;">JA</div>
                 <div>
-                    <div class="card-name">#70 Jeremy Alexander Cabello Ramirez</div>
+                    <div class="card-name">#95 Jeremy Alexander Cabello Ramirez</div>
                     <div class="card-meta">
                         <span class="source-badge">INACAP</span>
                         <span class="sep">·</span>
@@ -5328,6 +7103,18 @@
                 </tr>
                 <tr class="ranking-row" data-tier="C" data-source="INACAP">
                     <td class="rank">15</td>
+                    <td class="name">ALVARO FELIPE IGNACIO FRANCO VALENCIA</td>
+                    <td><span class="tier-pill tier-c">C</span></td>
+                    <td class="score-cell tier-c">33</td>
+                    <td>3</td>
+                    <td>10</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>3</td>
+                    <td class="source-cell">INACAP</td>
+                </tr>
+                <tr class="ranking-row" data-tier="C" data-source="INACAP">
+                    <td class="rank">16</td>
                     <td class="name">Byron Alexis Cabezas Manzor</td>
                     <td><span class="tier-pill tier-c">C</span></td>
                     <td class="score-cell tier-c">32</td>
@@ -5339,7 +7126,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="C" data-source="Duoc">
-                    <td class="rank">16</td>
+                    <td class="rank">17</td>
                     <td class="name">Tomas Humberto Manuel Valenzuela Vergara</td>
                     <td><span class="tier-pill tier-c">C</span></td>
                     <td class="score-cell tier-c">31</td>
@@ -5351,7 +7138,7 @@
                     <td class="source-cell">Duoc</td>
                 </tr>
                 <tr class="ranking-row" data-tier="C" data-source="Duoc">
-                    <td class="rank">17</td>
+                    <td class="rank">18</td>
                     <td class="name">Michel David Espinoza Duarte <span style="font-size:10px;color:var(--green);">CV</span></td>
                     <td><span class="tier-pill tier-c">C</span></td>
                     <td class="score-cell tier-c">30</td>
@@ -5363,7 +7150,7 @@
                     <td class="source-cell">Duoc</td>
                 </tr>
                 <tr class="ranking-row" data-tier="C" data-source="INACAP">
-                    <td class="rank">18</td>
+                    <td class="rank">19</td>
                     <td class="name">Johanna María González Sarmiento <span style="font-size:10px;color:var(--green);">CV</span></td>
                     <td><span class="tier-pill tier-c">C</span></td>
                     <td class="score-cell tier-c">30</td>
@@ -5375,7 +7162,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="C" data-source="INACAP">
-                    <td class="rank">19</td>
+                    <td class="rank">20</td>
                     <td class="name">Cristopher Jonathan Abarca Navarro</td>
                     <td><span class="tier-pill tier-c">C</span></td>
                     <td class="score-cell tier-c">30</td>
@@ -5387,7 +7174,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">20</td>
+                    <td class="rank">21</td>
                     <td class="name">Diego Ignacio Castillo Huenchul</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">29</td>
@@ -5399,7 +7186,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">21</td>
+                    <td class="rank">22</td>
                     <td class="name">Ignacio Lorenzo Ruz Romero</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">28</td>
@@ -5411,7 +7198,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">22</td>
+                    <td class="rank">23</td>
                     <td class="name">Ricardo Ignacio Haguer</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">28</td>
@@ -5423,7 +7210,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">23</td>
+                    <td class="rank">24</td>
                     <td class="name">Diego Antonio Arias Céspedes</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">28</td>
@@ -5435,7 +7222,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">24</td>
+                    <td class="rank">25</td>
                     <td class="name">Jose Ignacio Moreno Rojas <span style="font-size:10px;color:var(--green);">CV</span></td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">26</td>
@@ -5447,7 +7234,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">25</td>
+                    <td class="rank">26</td>
                     <td class="name">Carlos Felipe Valdivia Parra</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">25</td>
@@ -5459,7 +7246,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="Duoc">
-                    <td class="rank">26</td>
+                    <td class="rank">27</td>
                     <td class="name">Cristian Jeldres Guerra <span style="font-size:10px;color:var(--green);">CV</span></td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">24</td>
@@ -5471,7 +7258,7 @@
                     <td class="source-cell">Duoc</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">27</td>
+                    <td class="rank">28</td>
                     <td class="name">Byron Alejandro Leiva Garces</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">24</td>
@@ -5483,7 +7270,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">28</td>
+                    <td class="rank">29</td>
                     <td class="name">Moises Bensaid Cid Valenzuela</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">24</td>
@@ -5495,7 +7282,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">29</td>
+                    <td class="rank">30</td>
                     <td class="name">Bruno Robinson Morales</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">22</td>
@@ -5507,7 +7294,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">30</td>
+                    <td class="rank">31</td>
                     <td class="name">Matías Cifuentes Mella</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">21</td>
@@ -5519,7 +7306,19 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">31</td>
+                    <td class="rank">32</td>
+                    <td class="name">ANDREA STEFANIE CACERES VASQUEZ</td>
+                    <td><span class="tier-pill tier-d">D</span></td>
+                    <td class="score-cell tier-d">21</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>8</td>
+                    <td>4</td>
+                    <td>3</td>
+                    <td class="source-cell">INACAP</td>
+                </tr>
+                <tr class="ranking-row" data-tier="D" data-source="INACAP">
+                    <td class="rank">33</td>
                     <td class="name">Diego Benjamin Vallejos Leiva</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">20</td>
@@ -5531,7 +7330,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">32</td>
+                    <td class="rank">34</td>
                     <td class="name">Ismael Jacob Turra Jara <span style="font-size:10px;color:var(--green);">CV</span></td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">18</td>
@@ -5543,7 +7342,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">33</td>
+                    <td class="rank">35</td>
                     <td class="name">Felipe Andrés Espinoza Fuentes</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">18</td>
@@ -5555,7 +7354,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">34</td>
+                    <td class="rank">36</td>
                     <td class="name">Daniel Lobos</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">18</td>
@@ -5567,7 +7366,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">35</td>
+                    <td class="rank">37</td>
                     <td class="name">Bastián Andrés Pavez Cortés</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">18</td>
@@ -5579,7 +7378,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">36</td>
+                    <td class="rank">38</td>
                     <td class="name">Fernando Andrés Bolvarán Carvajal</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">17</td>
@@ -5591,7 +7390,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">37</td>
+                    <td class="rank">39</td>
                     <td class="name">Patricio Lillo Catalán</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">15</td>
@@ -5603,7 +7402,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">38</td>
+                    <td class="rank">40</td>
                     <td class="name">Catriel Sebastián Goldmann Goldmann</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">15</td>
@@ -5615,7 +7414,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="Duoc">
-                    <td class="rank">39</td>
+                    <td class="rank">41</td>
                     <td class="name">Emanuel Jesus Arancibia Ferrada</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">14</td>
@@ -5627,7 +7426,7 @@
                     <td class="source-cell">Duoc</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="Duoc">
-                    <td class="rank">40</td>
+                    <td class="rank">42</td>
                     <td class="name">Jairo Álvarez Salazar</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">14</td>
@@ -5639,7 +7438,7 @@
                     <td class="source-cell">Duoc</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">41</td>
+                    <td class="rank">43</td>
                     <td class="name">Maximiliano Hernan Pizarro Lagos</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">13</td>
@@ -5651,7 +7450,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="Duoc">
-                    <td class="rank">42</td>
+                    <td class="rank">44</td>
                     <td class="name">Rodrigo Antonio Freire Galindo</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">12</td>
@@ -5663,7 +7462,7 @@
                     <td class="source-cell">Duoc</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">43</td>
+                    <td class="rank">45</td>
                     <td class="name">Jimmy Jason Sura Robles</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">12</td>
@@ -5675,7 +7474,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">44</td>
+                    <td class="rank">46</td>
                     <td class="name">Jordy Cabezas Mejias</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">12</td>
@@ -5687,7 +7486,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">45</td>
+                    <td class="rank">47</td>
                     <td class="name">Kevin Bastián Loayza Balboa</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">11</td>
@@ -5699,7 +7498,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">46</td>
+                    <td class="rank">48</td>
                     <td class="name">Bastián Benjamín Meza Barros</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">11</td>
@@ -5711,7 +7510,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">47</td>
+                    <td class="rank">49</td>
                     <td class="name">Jose Miguel Sandoval Garces</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">10</td>
@@ -5723,7 +7522,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">48</td>
+                    <td class="rank">50</td>
                     <td class="name">Gabriel Alejandro Matamala Aedo</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">10</td>
@@ -5735,7 +7534,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">49</td>
+                    <td class="rank">51</td>
                     <td class="name">Nicolás Renato Martínez Aguayo</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">10</td>
@@ -5747,7 +7546,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="Duoc">
-                    <td class="rank">50</td>
+                    <td class="rank">52</td>
                     <td class="name">Allan Roberto López González <span style="font-size:10px;color:var(--green);">CV</span></td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">9</td>
@@ -5759,7 +7558,7 @@
                     <td class="source-cell">Duoc</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="Duoc">
-                    <td class="rank">51</td>
+                    <td class="rank">53</td>
                     <td class="name">Alexis Jesus Rodriguez Riquelme <span style="font-size:10px;color:var(--green);">CV</span></td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">8</td>
@@ -5771,7 +7570,7 @@
                     <td class="source-cell">Duoc</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="Duoc">
-                    <td class="rank">52</td>
+                    <td class="rank">54</td>
                     <td class="name">Nicolas Moraga Ortiz</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">8</td>
@@ -5783,7 +7582,7 @@
                     <td class="source-cell">Duoc</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="Duoc">
-                    <td class="rank">53</td>
+                    <td class="rank">55</td>
                     <td class="name">Franco Bastian Vasquez Toledo <span style="font-size:10px;color:var(--green);">CV</span></td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">7</td>
@@ -5795,7 +7594,7 @@
                     <td class="source-cell">Duoc</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">54</td>
+                    <td class="rank">56</td>
                     <td class="name">Daniel Scott Aguilar Aguirre</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">7</td>
@@ -5807,7 +7606,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">55</td>
+                    <td class="rank">57</td>
                     <td class="name">Nicolás David Velásquez Pino</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">7</td>
@@ -5819,7 +7618,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">56</td>
+                    <td class="rank">58</td>
                     <td class="name">Antonio Ignacio Leiva Quiroz</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">7</td>
@@ -5831,7 +7630,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">57</td>
+                    <td class="rank">59</td>
                     <td class="name">Benito Ignacio Díaz Lorca</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">6</td>
@@ -5843,7 +7642,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">58</td>
+                    <td class="rank">60</td>
                     <td class="name">Rodrigo Javier Monti González</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">6</td>
@@ -5855,7 +7654,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">59</td>
+                    <td class="rank">61</td>
                     <td class="name">Karla Marlene Cortés Cortés</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">6</td>
@@ -5867,7 +7666,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">60</td>
+                    <td class="rank">62</td>
                     <td class="name">Alexis Sebastian Eduardo González Vásquez</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">5</td>
@@ -5879,7 +7678,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">61</td>
+                    <td class="rank">63</td>
                     <td class="name">Nicolás Ignacio Calisto Triviño</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">5</td>
@@ -5890,8 +7689,284 @@
                     <td>1</td>
                     <td class="source-cell">INACAP</td>
                 </tr>
+                <tr class="ranking-row" data-tier="D" data-source="INACAP">
+                    <td class="rank">64</td>
+                    <td class="name">JAVIERA BELEN KAMMLE CABRERA</td>
+                    <td><span class="tier-pill tier-d">D</span></td>
+                    <td class="score-cell tier-d">5</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td class="source-cell">INACAP</td>
+                </tr>
+                <tr class="ranking-row" data-tier="D" data-source="INACAP">
+                    <td class="rank">65</td>
+                    <td class="name">SANTIAGO ALEXANDER RAMIREZ MEJIAS</td>
+                    <td><span class="tier-pill tier-d">D</span></td>
+                    <td class="score-cell tier-d">5</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td class="source-cell">INACAP</td>
+                </tr>
+                <tr class="ranking-row" data-tier="D" data-source="INACAP">
+                    <td class="rank">66</td>
+                    <td class="name">JOSE TOMAS BARRAZA ROMAN</td>
+                    <td><span class="tier-pill tier-d">D</span></td>
+                    <td class="score-cell tier-d">5</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td class="source-cell">INACAP</td>
+                </tr>
+                <tr class="ranking-row" data-tier="D" data-source="INACAP">
+                    <td class="rank">67</td>
+                    <td class="name">SEBASTIAN FELIPE PINO ROJAS</td>
+                    <td><span class="tier-pill tier-d">D</span></td>
+                    <td class="score-cell tier-d">5</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td class="source-cell">INACAP</td>
+                </tr>
+                <tr class="ranking-row" data-tier="D" data-source="INACAP">
+                    <td class="rank">68</td>
+                    <td class="name">CRISTIAN JESUS FRITZ SEPULVEDA</td>
+                    <td><span class="tier-pill tier-d">D</span></td>
+                    <td class="score-cell tier-d">5</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td class="source-cell">INACAP</td>
+                </tr>
+                <tr class="ranking-row" data-tier="D" data-source="INACAP">
+                    <td class="rank">69</td>
+                    <td class="name">Camilo Andrés Orellana Solé</td>
+                    <td><span class="tier-pill tier-d">D</span></td>
+                    <td class="score-cell tier-d">5</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td class="source-cell">INACAP</td>
+                </tr>
+                <tr class="ranking-row" data-tier="D" data-source="INACAP">
+                    <td class="rank">70</td>
+                    <td class="name">NICOLAS EDUARDO ESPINOZA GARRIDO</td>
+                    <td><span class="tier-pill tier-d">D</span></td>
+                    <td class="score-cell tier-d">5</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td class="source-cell">INACAP</td>
+                </tr>
+                <tr class="ranking-row" data-tier="D" data-source="INACAP">
+                    <td class="rank">71</td>
+                    <td class="name">GRACIANY SEBASTIAN BAEZA JARA</td>
+                    <td><span class="tier-pill tier-d">D</span></td>
+                    <td class="score-cell tier-d">5</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td class="source-cell">INACAP</td>
+                </tr>
+                <tr class="ranking-row" data-tier="D" data-source="INACAP">
+                    <td class="rank">72</td>
+                    <td class="name">ABEL ALEJANDRO AGUILEF TOLEDO</td>
+                    <td><span class="tier-pill tier-d">D</span></td>
+                    <td class="score-cell tier-d">5</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td class="source-cell">INACAP</td>
+                </tr>
+                <tr class="ranking-row" data-tier="D" data-source="INACAP">
+                    <td class="rank">73</td>
+                    <td class="name">DANIEL MITCHEL CACERES HERMOSILLA</td>
+                    <td><span class="tier-pill tier-d">D</span></td>
+                    <td class="score-cell tier-d">5</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td class="source-cell">INACAP</td>
+                </tr>
+                <tr class="ranking-row" data-tier="D" data-source="INACAP">
+                    <td class="rank">74</td>
+                    <td class="name">JOSE FRANCISCO FUENTES ZUNIGA</td>
+                    <td><span class="tier-pill tier-d">D</span></td>
+                    <td class="score-cell tier-d">5</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td class="source-cell">INACAP</td>
+                </tr>
+                <tr class="ranking-row" data-tier="D" data-source="INACAP">
+                    <td class="rank">75</td>
+                    <td class="name">BRAULIO ERNESTO ROJAS SOTO</td>
+                    <td><span class="tier-pill tier-d">D</span></td>
+                    <td class="score-cell tier-d">5</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td class="source-cell">INACAP</td>
+                </tr>
+                <tr class="ranking-row" data-tier="D" data-source="INACAP">
+                    <td class="rank">76</td>
+                    <td class="name">Jean Pierre Alexander Rivera Muñoz</td>
+                    <td><span class="tier-pill tier-d">D</span></td>
+                    <td class="score-cell tier-d">5</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td class="source-cell">INACAP</td>
+                </tr>
+                <tr class="ranking-row" data-tier="D" data-source="INACAP">
+                    <td class="rank">77</td>
+                    <td class="name">TOMAS  JOSE CARVAJAL JARA</td>
+                    <td><span class="tier-pill tier-d">D</span></td>
+                    <td class="score-cell tier-d">5</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td class="source-cell">INACAP</td>
+                </tr>
+                <tr class="ranking-row" data-tier="D" data-source="INACAP">
+                    <td class="rank">78</td>
+                    <td class="name">ALFONSO JAVIER ROMERO MARTINEZ</td>
+                    <td><span class="tier-pill tier-d">D</span></td>
+                    <td class="score-cell tier-d">5</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td class="source-cell">INACAP</td>
+                </tr>
+                <tr class="ranking-row" data-tier="D" data-source="INACAP">
+                    <td class="rank">79</td>
+                    <td class="name">BASTIAN SAMUEL FLORES MESINA</td>
+                    <td><span class="tier-pill tier-d">D</span></td>
+                    <td class="score-cell tier-d">5</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td class="source-cell">INACAP</td>
+                </tr>
+                <tr class="ranking-row" data-tier="D" data-source="INACAP">
+                    <td class="rank">80</td>
+                    <td class="name">Cristopher Cortinez Silva</td>
+                    <td><span class="tier-pill tier-d">D</span></td>
+                    <td class="score-cell tier-d">5</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td class="source-cell">INACAP</td>
+                </tr>
+                <tr class="ranking-row" data-tier="D" data-source="INACAP">
+                    <td class="rank">81</td>
+                    <td class="name">MIGUEL PATRICIO RAMON CABEZA CONTRERAS</td>
+                    <td><span class="tier-pill tier-d">D</span></td>
+                    <td class="score-cell tier-d">5</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td class="source-cell">INACAP</td>
+                </tr>
+                <tr class="ranking-row" data-tier="D" data-source="INACAP">
+                    <td class="rank">82</td>
+                    <td class="name">IGNACIO ANDRES GARRIDO CARRASCO</td>
+                    <td><span class="tier-pill tier-d">D</span></td>
+                    <td class="score-cell tier-d">5</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td class="source-cell">INACAP</td>
+                </tr>
+                <tr class="ranking-row" data-tier="D" data-source="INACAP">
+                    <td class="rank">83</td>
+                    <td class="name">YARODT NICOLAS NEIRA PEREZ</td>
+                    <td><span class="tier-pill tier-d">D</span></td>
+                    <td class="score-cell tier-d">5</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td class="source-cell">INACAP</td>
+                </tr>
+                <tr class="ranking-row" data-tier="D" data-source="INACAP">
+                    <td class="rank">84</td>
+                    <td class="name">PABLO ARIEL VASQUEZ CORVALAN</td>
+                    <td><span class="tier-pill tier-d">D</span></td>
+                    <td class="score-cell tier-d">5</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td class="source-cell">INACAP</td>
+                </tr>
+                <tr class="ranking-row" data-tier="D" data-source="INACAP">
+                    <td class="rank">85</td>
+                    <td class="name">MATIAS IGNACIO TORRES TORRES</td>
+                    <td><span class="tier-pill tier-d">D</span></td>
+                    <td class="score-cell tier-d">5</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td class="source-cell">INACAP</td>
+                </tr>
+                <tr class="ranking-row" data-tier="D" data-source="INACAP">
+                    <td class="rank">86</td>
+                    <td class="name">Jarod William Christofer Arteaga Acosta</td>
+                    <td><span class="tier-pill tier-d">D</span></td>
+                    <td class="score-cell tier-d">5</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td class="source-cell">INACAP</td>
+                </tr>
                 <tr class="ranking-row" data-tier="D" data-source="Duoc">
-                    <td class="rank">62</td>
+                    <td class="rank">87</td>
                     <td class="name">Victor Andres Galvez Parraguez <span style="font-size:10px;color:var(--green);">CV</span></td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">4</td>
@@ -5903,7 +7978,7 @@
                     <td class="source-cell">Duoc</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">63</td>
+                    <td class="rank">88</td>
                     <td class="name">Cristhian Alonso Garcia Zamora</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">4</td>
@@ -5915,7 +7990,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">64</td>
+                    <td class="rank">89</td>
                     <td class="name">Nicolas Ignacio Eduardo Aguilera Aguilera</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">3</td>
@@ -5927,7 +8002,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">65</td>
+                    <td class="rank">90</td>
                     <td class="name">Nicolas Ignacio Rubilar Morales</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">2</td>
@@ -5939,7 +8014,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">66</td>
+                    <td class="rank">91</td>
                     <td class="name">Benjamín Ignacio Martínez Caro</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">2</td>
@@ -5951,7 +8026,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">67</td>
+                    <td class="rank">92</td>
                     <td class="name">Gonzalo Alberto Rojas Barra <span style="font-size:10px;color:var(--green);">CV</span></td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">1</td>
@@ -5963,7 +8038,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">68</td>
+                    <td class="rank">93</td>
                     <td class="name">Joel Isaías Pino Castillo</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">1</td>
@@ -5975,7 +8050,7 @@
                     <td class="source-cell">INACAP</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="Duoc">
-                    <td class="rank">69</td>
+                    <td class="rank">94</td>
                     <td class="name">Nicolas Ortega Munoz</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">0</td>
@@ -5987,7 +8062,7 @@
                     <td class="source-cell">Duoc</td>
                 </tr>
                 <tr class="ranking-row" data-tier="D" data-source="INACAP">
-                    <td class="rank">70</td>
+                    <td class="rank">95</td>
                     <td class="name">Jeremy Alexander Cabello Ramirez</td>
                     <td><span class="tier-pill tier-d">D</span></td>
                     <td class="score-cell tier-d">0</td>
@@ -6010,7 +8085,7 @@ if (ctx) {
         type: 'doughnut',
         data: {
             labels: ['Tier A', 'Tier B', 'Tier C', 'Tier D'],
-            datasets: [{ data: [1, 5, 13, 51], backgroundColor: ['#16a34a','#ca8a04','#ea580c','#dc2626'], borderWidth: 0, hoverOffset: 4 }]
+            datasets: [{ data: [1, 5, 14, 75], backgroundColor: ['#16a34a','#ca8a04','#ea580c','#dc2626'], borderWidth: 0, hoverOffset: 4 }]
         },
         options: { responsive: true, plugins: { legend: { position: 'bottom', labels: { font: { size: 12 }, padding: 12 } } }, cutout: '60%' }
     });
